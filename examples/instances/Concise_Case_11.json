@@ -1,0 +1,226 @@
+{
+  "name": "Concise_Case_11",
+  "num_requirements": 12,
+  "attribute_definitions": {
+    "effort": {
+      "type": "scalar",
+      "description": "Total developer effort required",
+      "coupling_rule": "sum",
+      "evaluation_rule": "sum"
+    },
+    "risk": {
+      "type": "multivalued",
+      "evaluator_group": "developers",
+      "description": "Technical risk level evaluated by developers",
+      "coupling_rule": "max",
+      "aggregation_rule": "weighted_mean",
+      "evaluation_rule": "sum"
+    },
+    "satisfaction": {
+      "type": "multivalued",
+      "evaluator_group": "stakeholders",
+      "description": "Client satisfaction gain if requirement is included",
+      "coupling_rule": "sum",
+      "aggregation_rule": "weighted_mean",
+      "evaluation_rule": "sum"
+    },
+    "dissatisfaction": {
+      "type": "multivalued",
+      "evaluator_group": "stakeholders",
+      "description": "Client dissatisfaction penalty if requirement is excluded",
+      "coupling_rule": "sum",
+      "aggregation_rule": "weighted_mean",
+      "evaluation_rule": "sum"
+    }
+  },
+  "stakeholders": [
+    {
+      "id": "client1",
+      "weight": 2.0,
+      "description": "Secondary client representing individual users with lower decision weight."
+    },
+    {
+      "id": "client2",
+      "weight": 5.0,
+      "description": "Primary corporate client representing key strategic interest with higher decision weight."
+    }
+  ],
+  "developers": [
+    {
+      "id": "dev1",
+      "weight": 1.0,
+      "description": "Senior full-time developer with full weighting."
+    },
+    {
+      "id": "dev2",
+      "weight": 0.5,
+      "description": "Junior or part-time developer with 50% weighting."
+    }
+  ],
+  "requirements": [
+    {
+      "id": "r1",
+      "description": "Centralized user authentication and identity management module.",
+      "attributes": {
+        "effort": 3,
+        "risk": [2, 3],
+        "satisfaction": [1, 5],
+        "dissatisfaction": [0, 1]
+      }
+    },
+    {
+      "id": "r2",
+      "description": "Data and inventory management module.",
+      "attributes": {
+        "effort": 4,
+        "risk": [3, 3],
+        "satisfaction": [1, 1],
+        "dissatisfaction": [1, 2]
+      }
+    },
+    {
+      "id": "r3",
+      "description": "Core server infrastructure and system environment configuration.",
+      "attributes": {
+        "effort": 2,
+        "risk": [1, 2],
+        "satisfaction": [2, 1],
+        "dissatisfaction": [1, 3]
+      }
+    },
+    {
+      "id": "r4",
+      "description": "User interface for profile customization and user preferences.",
+      "attributes": {
+        "effort": 1,
+        "risk": [2, 2],
+        "satisfaction": [0, 2],
+        "dissatisfaction": [2, 2]
+      }
+    },
+    {
+      "id": "r5",
+      "description": "Interactive dashboard featuring key performance metrics and analytical reports.",
+      "attributes": {
+        "effort": 4,
+        "risk": [5, 2],
+        "satisfaction": [5, 0],
+        "dissatisfaction": [2, 5]
+      }
+    },
+    {
+      "id": "r6",
+      "description": "Real-time notification and system alerting module.",
+      "attributes": {
+        "effort": 3,
+        "risk": [1, 3],
+        "satisfaction": [0, 1],
+        "dissatisfaction": [2, 1]
+      }
+    },
+    {
+      "id": "r7",
+      "description": "Report export functionality supporting PDF and Excel formats.",
+      "attributes": {
+        "effort": 2,
+        "risk": [2, 2],
+        "satisfaction": [2, 1],
+        "dissatisfaction": [0, 2]
+      }
+    },
+    {
+      "id": "r8",
+      "description": "Third-party payment gateway integration and financial transaction processing.",
+      "attributes": {
+        "effort": 10,
+        "risk": [3, 2],
+        "satisfaction": [4, 4],
+        "dissatisfaction": [4, 7]
+      }
+    },
+    {
+      "id": "r9",
+      "description": "Security audit logging and system activity tracking module.",
+      "attributes": {
+        "effort": 3,
+        "risk": [3, 3],
+        "satisfaction": [2, 2],
+        "dissatisfaction": [0, 3]
+      }
+    },
+    {
+      "id": "r10",
+      "description": "Regulatory compliance and advanced privacy policy framework.",
+      "attributes": {
+        "effort": 2,
+        "risk": [1, 2],
+        "satisfaction": [1, 0],
+        "dissatisfaction": [2, 3]
+      }
+    },
+    {
+      "id": "r11",
+      "description": "Public REST API for third-party application integrations.",
+      "attributes": {
+        "effort": 5,
+        "risk": [1, 8],
+        "satisfaction": [1, 2],
+        "dissatisfaction": [2, 1]
+      }
+    },
+    {
+      "id": "r12",
+      "description": "Public REST API for third-party application integrations.",
+      "attributes": {
+        "effort": 5,
+        "risk": [1, 8],
+        "satisfaction": [1, 2],
+        "dissatisfaction": [2, 1]
+      }
+    }
+  ],
+  "relationships": {
+    "precedences": [
+      {"from": "r1", "to": "r4"},
+      {"from": "r1", "to": "r6"},
+      {"from": "r2", "to": "r4"},
+      {"from": "r2", "to": "r5"},
+      {"from": "r5", "to": "r7"},
+      {"from": "r3", "to": "r5"},
+      {"from": "r3", "to": "r8"},
+      {"from": "r3", "to": "r9"},
+      {"from": "r3", "to": "r11"},
+      {"from": "r9", "to": "r10"},
+      {"from": "r10", "to": "r12"}
+    ],
+    "couplings": [
+      {"req1": "r4", "req2": "r5"}
+    ],
+    "exclusions": [
+      {"req1": "r7", "req2": "r9"}
+    ]
+  },
+  "value_dependencies": [
+    {
+      "attribute": "effort",
+      "reqs": ["r6", "r11"],
+      "effect": "multiplier",
+      "factor": 0.9,
+      "description": "Effort reduced by 10% if both r6 and r11 are included"
+    },
+    {
+      "attribute": "satisfaction",
+      "reqs": ["r1", "r6"],
+      "effect": "delta",
+      "factor": 15.0,
+      "description": "Bonus +15 satisfaction if r1 and r6 are released together"
+    },
+        {
+      "attribute": "satisfaction",
+      "reqs": ["r1", "r7"],
+      "effect": "delta",
+      "factor": 15.0,
+      "description": "Bonus +15 satisfaction if r1 and r7 are released together"
+    }
+  ]
+}

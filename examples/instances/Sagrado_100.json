@@ -1,0 +1,1802 @@
+{
+  "name": "Sagrado_100",
+  "num_requirements": 100,
+  "metadata": {
+    "source": "del Sagrado, del Aguila, and Orellana, Multi-objective ant colony optimization for requirements selection, Empirical Software Engineering 20 (2015) 577-610",
+    "doi": "10.1007/s10664-013-9287-3",
+    "adaptation_notes": [
+      "Priority rows are represented as multivalued satisfaction attributes ordered c1-c5.",
+      "The paper defines global satisfaction as a weighted sum. NRP-Exp uses weighted_mean here to preserve the original per-customer values; multiply aggregated satisfaction by the sum of customer weights to recover the paper scale.",
+      "Paper implication ri => rj means ri requires rj. JSON precedences are reversed to the NRP-Exp convention from prerequisite to dependent."
+    ],
+    "paper_effort_bounds": [
+      312,
+      519,
+      726
+    ],
+    "paper_customer_weights": [
+      1.0,
+      5.0,
+      3.0,
+      3.0,
+      1.0
+    ],
+    "paper_implications": [
+      {
+        "dependent": "r2",
+        "required": "r24"
+      },
+      {
+        "dependent": "r3",
+        "required": "r26"
+      },
+      {
+        "dependent": "r3",
+        "required": "r27"
+      },
+      {
+        "dependent": "r3",
+        "required": "r28"
+      },
+      {
+        "dependent": "r3",
+        "required": "r29"
+      },
+      {
+        "dependent": "r4",
+        "required": "r5"
+      },
+      {
+        "dependent": "r6",
+        "required": "r7"
+      },
+      {
+        "dependent": "r7",
+        "required": "r30"
+      },
+      {
+        "dependent": "r10",
+        "required": "r32"
+      },
+      {
+        "dependent": "r10",
+        "required": "r33"
+      },
+      {
+        "dependent": "r14",
+        "required": "r32"
+      },
+      {
+        "dependent": "r14",
+        "required": "r34"
+      },
+      {
+        "dependent": "r14",
+        "required": "r37"
+      },
+      {
+        "dependent": "r14",
+        "required": "r38"
+      },
+      {
+        "dependent": "r16",
+        "required": "r39"
+      },
+      {
+        "dependent": "r16",
+        "required": "r40"
+      },
+      {
+        "dependent": "r17",
+        "required": "r43"
+      },
+      {
+        "dependent": "r29",
+        "required": "r49"
+      },
+      {
+        "dependent": "r29",
+        "required": "r50"
+      },
+      {
+        "dependent": "r29",
+        "required": "r51"
+      },
+      {
+        "dependent": "r30",
+        "required": "r52"
+      },
+      {
+        "dependent": "r30",
+        "required": "r53"
+      },
+      {
+        "dependent": "r31",
+        "required": "r55"
+      },
+      {
+        "dependent": "r32",
+        "required": "r56"
+      },
+      {
+        "dependent": "r32",
+        "required": "r57"
+      },
+      {
+        "dependent": "r33",
+        "required": "r58"
+      },
+      {
+        "dependent": "r36",
+        "required": "r61"
+      },
+      {
+        "dependent": "r39",
+        "required": "r63"
+      },
+      {
+        "dependent": "r40",
+        "required": "r64"
+      },
+      {
+        "dependent": "r43",
+        "required": "r65"
+      },
+      {
+        "dependent": "r46",
+        "required": "r68"
+      },
+      {
+        "dependent": "r47",
+        "required": "r70"
+      },
+      {
+        "dependent": "r55",
+        "required": "r79"
+      },
+      {
+        "dependent": "r56",
+        "required": "r80"
+      },
+      {
+        "dependent": "r57",
+        "required": "r80"
+      },
+      {
+        "dependent": "r62",
+        "required": "r83"
+      },
+      {
+        "dependent": "r62",
+        "required": "r84"
+      },
+      {
+        "dependent": "r64",
+        "required": "r87"
+      }
+    ]
+  },
+  "attribute_definitions": {
+    "effort": {
+      "type": "scalar",
+      "description": "Development effort reported in the source table",
+      "coupling_rule": "sum",
+      "evaluation_rule": "sum"
+    },
+    "satisfaction": {
+      "type": "multivalued",
+      "evaluator_group": "stakeholders",
+      "description": "Per-customer requirement priority reported in the source table",
+      "coupling_rule": "sum",
+      "aggregation_rule": "weighted_mean",
+      "evaluation_rule": "sum"
+    }
+  },
+  "stakeholders": [
+    {
+      "id": "c1",
+      "weight": 1.0,
+      "description": "Customer c1 from Table 3"
+    },
+    {
+      "id": "c2",
+      "weight": 5.0,
+      "description": "Customer c2 from Table 3"
+    },
+    {
+      "id": "c3",
+      "weight": 3.0,
+      "description": "Customer c3 from Table 3"
+    },
+    {
+      "id": "c4",
+      "weight": 3.0,
+      "description": "Customer c4 from Table 3"
+    },
+    {
+      "id": "c5",
+      "weight": 1.0,
+      "description": "Customer c5 from Table 3"
+    }
+  ],
+  "developers": [],
+  "requirements": [
+    {
+      "id": "r1",
+      "description": "Requirement r1 from Table 3",
+      "attributes": {
+        "effort": 16,
+        "satisfaction": [
+          1,
+          3,
+          1,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r2",
+      "description": "Requirement r2 from Table 3",
+      "attributes": {
+        "effort": 19,
+        "satisfaction": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r3",
+      "description": "Requirement r3 from Table 3",
+      "attributes": {
+        "effort": 16,
+        "satisfaction": [
+          1,
+          1,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r4",
+      "description": "Requirement r4 from Table 3",
+      "attributes": {
+        "effort": 7,
+        "satisfaction": [
+          1,
+          2,
+          2,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r5",
+      "description": "Requirement r5 from Table 3",
+      "attributes": {
+        "effort": 19,
+        "satisfaction": [
+          2,
+          1,
+          1,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r6",
+      "description": "Requirement r6 from Table 3",
+      "attributes": {
+        "effort": 15,
+        "satisfaction": [
+          3,
+          2,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r7",
+      "description": "Requirement r7 from Table 3",
+      "attributes": {
+        "effort": 8,
+        "satisfaction": [
+          3,
+          1,
+          1,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r8",
+      "description": "Requirement r8 from Table 3",
+      "attributes": {
+        "effort": 10,
+        "satisfaction": [
+          1,
+          2,
+          3,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r9",
+      "description": "Requirement r9 from Table 3",
+      "attributes": {
+        "effort": 6,
+        "satisfaction": [
+          1,
+          2,
+          2,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r10",
+      "description": "Requirement r10 from Table 3",
+      "attributes": {
+        "effort": 18,
+        "satisfaction": [
+          3,
+          1,
+          2,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r11",
+      "description": "Requirement r11 from Table 3",
+      "attributes": {
+        "effort": 15,
+        "satisfaction": [
+          1,
+          2,
+          3,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r12",
+      "description": "Requirement r12 from Table 3",
+      "attributes": {
+        "effort": 12,
+        "satisfaction": [
+          1,
+          3,
+          3,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r13",
+      "description": "Requirement r13 from Table 3",
+      "attributes": {
+        "effort": 16,
+        "satisfaction": [
+          3,
+          3,
+          3,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r14",
+      "description": "Requirement r14 from Table 3",
+      "attributes": {
+        "effort": 20,
+        "satisfaction": [
+          2,
+          2,
+          1,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r15",
+      "description": "Requirement r15 from Table 3",
+      "attributes": {
+        "effort": 9,
+        "satisfaction": [
+          3,
+          1,
+          3,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r16",
+      "description": "Requirement r16 from Table 3",
+      "attributes": {
+        "effort": 4,
+        "satisfaction": [
+          2,
+          3,
+          1,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r17",
+      "description": "Requirement r17 from Table 3",
+      "attributes": {
+        "effort": 16,
+        "satisfaction": [
+          2,
+          2,
+          2,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r18",
+      "description": "Requirement r18 from Table 3",
+      "attributes": {
+        "effort": 2,
+        "satisfaction": [
+          3,
+          3,
+          2,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r19",
+      "description": "Requirement r19 from Table 3",
+      "attributes": {
+        "effort": 9,
+        "satisfaction": [
+          1,
+          3,
+          3,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r20",
+      "description": "Requirement r20 from Table 3",
+      "attributes": {
+        "effort": 3,
+        "satisfaction": [
+          3,
+          1,
+          3,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r21",
+      "description": "Requirement r21 from Table 3",
+      "attributes": {
+        "effort": 2,
+        "satisfaction": [
+          2,
+          3,
+          2,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r22",
+      "description": "Requirement r22 from Table 3",
+      "attributes": {
+        "effort": 10,
+        "satisfaction": [
+          1,
+          3,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r23",
+      "description": "Requirement r23 from Table 3",
+      "attributes": {
+        "effort": 4,
+        "satisfaction": [
+          1,
+          3,
+          2,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r24",
+      "description": "Requirement r24 from Table 3",
+      "attributes": {
+        "effort": 2,
+        "satisfaction": [
+          1,
+          2,
+          3,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r25",
+      "description": "Requirement r25 from Table 3",
+      "attributes": {
+        "effort": 7,
+        "satisfaction": [
+          3,
+          3,
+          2,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r26",
+      "description": "Requirement r26 from Table 3",
+      "attributes": {
+        "effort": 15,
+        "satisfaction": [
+          3,
+          1,
+          3,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r27",
+      "description": "Requirement r27 from Table 3",
+      "attributes": {
+        "effort": 8,
+        "satisfaction": [
+          3,
+          2,
+          3,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r28",
+      "description": "Requirement r28 from Table 3",
+      "attributes": {
+        "effort": 20,
+        "satisfaction": [
+          3,
+          2,
+          1,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r29",
+      "description": "Requirement r29 from Table 3",
+      "attributes": {
+        "effort": 9,
+        "satisfaction": [
+          1,
+          3,
+          3,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r30",
+      "description": "Requirement r30 from Table 3",
+      "attributes": {
+        "effort": 11,
+        "satisfaction": [
+          2,
+          3,
+          3,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r31",
+      "description": "Requirement r31 from Table 3",
+      "attributes": {
+        "effort": 5,
+        "satisfaction": [
+          2,
+          1,
+          3,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r32",
+      "description": "Requirement r32 from Table 3",
+      "attributes": {
+        "effort": 1,
+        "satisfaction": [
+          3,
+          3,
+          2,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r33",
+      "description": "Requirement r33 from Table 3",
+      "attributes": {
+        "effort": 17,
+        "satisfaction": [
+          2,
+          2,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r34",
+      "description": "Requirement r34 from Table 3",
+      "attributes": {
+        "effort": 6,
+        "satisfaction": [
+          1,
+          2,
+          2,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r35",
+      "description": "Requirement r35 from Table 3",
+      "attributes": {
+        "effort": 2,
+        "satisfaction": [
+          2,
+          1,
+          2,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r36",
+      "description": "Requirement r36 from Table 3",
+      "attributes": {
+        "effort": 16,
+        "satisfaction": [
+          2,
+          2,
+          1,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r37",
+      "description": "Requirement r37 from Table 3",
+      "attributes": {
+        "effort": 8,
+        "satisfaction": [
+          1,
+          3,
+          1,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r38",
+      "description": "Requirement r38 from Table 3",
+      "attributes": {
+        "effort": 12,
+        "satisfaction": [
+          3,
+          2,
+          3,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r39",
+      "description": "Requirement r39 from Table 3",
+      "attributes": {
+        "effort": 18,
+        "satisfaction": [
+          3,
+          3,
+          1,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r40",
+      "description": "Requirement r40 from Table 3",
+      "attributes": {
+        "effort": 5,
+        "satisfaction": [
+          2,
+          3,
+          2,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r41",
+      "description": "Requirement r41 from Table 3",
+      "attributes": {
+        "effort": 6,
+        "satisfaction": [
+          2,
+          3,
+          1,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r42",
+      "description": "Requirement r42 from Table 3",
+      "attributes": {
+        "effort": 14,
+        "satisfaction": [
+          2,
+          3,
+          3,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r43",
+      "description": "Requirement r43 from Table 3",
+      "attributes": {
+        "effort": 15,
+        "satisfaction": [
+          3,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r44",
+      "description": "Requirement r44 from Table 3",
+      "attributes": {
+        "effort": 20,
+        "satisfaction": [
+          1,
+          1,
+          3,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r45",
+      "description": "Requirement r45 from Table 3",
+      "attributes": {
+        "effort": 14,
+        "satisfaction": [
+          1,
+          3,
+          3,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r46",
+      "description": "Requirement r46 from Table 3",
+      "attributes": {
+        "effort": 9,
+        "satisfaction": [
+          1,
+          2,
+          3,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r47",
+      "description": "Requirement r47 from Table 3",
+      "attributes": {
+        "effort": 16,
+        "satisfaction": [
+          2,
+          2,
+          3,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r48",
+      "description": "Requirement r48 from Table 3",
+      "attributes": {
+        "effort": 6,
+        "satisfaction": [
+          2,
+          2,
+          1,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r49",
+      "description": "Requirement r49 from Table 3",
+      "attributes": {
+        "effort": 6,
+        "satisfaction": [
+          3,
+          1,
+          3,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r50",
+      "description": "Requirement r50 from Table 3",
+      "attributes": {
+        "effort": 6,
+        "satisfaction": [
+          3,
+          3,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r51",
+      "description": "Requirement r51 from Table 3",
+      "attributes": {
+        "effort": 6,
+        "satisfaction": [
+          3,
+          3,
+          3,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r52",
+      "description": "Requirement r52 from Table 3",
+      "attributes": {
+        "effort": 2,
+        "satisfaction": [
+          3,
+          3,
+          1,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r53",
+      "description": "Requirement r53 from Table 3",
+      "attributes": {
+        "effort": 17,
+        "satisfaction": [
+          1,
+          1,
+          2,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r54",
+      "description": "Requirement r54 from Table 3",
+      "attributes": {
+        "effort": 8,
+        "satisfaction": [
+          3,
+          2,
+          3,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r55",
+      "description": "Requirement r55 from Table 3",
+      "attributes": {
+        "effort": 1,
+        "satisfaction": [
+          2,
+          2,
+          2,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r56",
+      "description": "Requirement r56 from Table 3",
+      "attributes": {
+        "effort": 3,
+        "satisfaction": [
+          1,
+          3,
+          3,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r57",
+      "description": "Requirement r57 from Table 3",
+      "attributes": {
+        "effort": 14,
+        "satisfaction": [
+          3,
+          3,
+          2,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r58",
+      "description": "Requirement r58 from Table 3",
+      "attributes": {
+        "effort": 16,
+        "satisfaction": [
+          1,
+          2,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r59",
+      "description": "Requirement r59 from Table 3",
+      "attributes": {
+        "effort": 18,
+        "satisfaction": [
+          3,
+          1,
+          2,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r60",
+      "description": "Requirement r60 from Table 3",
+      "attributes": {
+        "effort": 7,
+        "satisfaction": [
+          1,
+          1,
+          3,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r61",
+      "description": "Requirement r61 from Table 3",
+      "attributes": {
+        "effort": 10,
+        "satisfaction": [
+          2,
+          1,
+          1,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r62",
+      "description": "Requirement r62 from Table 3",
+      "attributes": {
+        "effort": 7,
+        "satisfaction": [
+          2,
+          3,
+          1,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r63",
+      "description": "Requirement r63 from Table 3",
+      "attributes": {
+        "effort": 16,
+        "satisfaction": [
+          3,
+          2,
+          2,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r64",
+      "description": "Requirement r64 from Table 3",
+      "attributes": {
+        "effort": 19,
+        "satisfaction": [
+          3,
+          3,
+          3,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r65",
+      "description": "Requirement r65 from Table 3",
+      "attributes": {
+        "effort": 17,
+        "satisfaction": [
+          1,
+          1,
+          3,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r66",
+      "description": "Requirement r66 from Table 3",
+      "attributes": {
+        "effort": 15,
+        "satisfaction": [
+          3,
+          2,
+          1,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r67",
+      "description": "Requirement r67 from Table 3",
+      "attributes": {
+        "effort": 11,
+        "satisfaction": [
+          1,
+          1,
+          3,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r68",
+      "description": "Requirement r68 from Table 3",
+      "attributes": {
+        "effort": 8,
+        "satisfaction": [
+          3,
+          2,
+          3,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r69",
+      "description": "Requirement r69 from Table 3",
+      "attributes": {
+        "effort": 20,
+        "satisfaction": [
+          2,
+          3,
+          3,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r70",
+      "description": "Requirement r70 from Table 3",
+      "attributes": {
+        "effort": 1,
+        "satisfaction": [
+          3,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r71",
+      "description": "Requirement r71 from Table 3",
+      "attributes": {
+        "effort": 5,
+        "satisfaction": [
+          1,
+          1,
+          3,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r72",
+      "description": "Requirement r72 from Table 3",
+      "attributes": {
+        "effort": 8,
+        "satisfaction": [
+          3,
+          3,
+          1,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r73",
+      "description": "Requirement r73 from Table 3",
+      "attributes": {
+        "effort": 3,
+        "satisfaction": [
+          2,
+          1,
+          3,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r74",
+      "description": "Requirement r74 from Table 3",
+      "attributes": {
+        "effort": 15,
+        "satisfaction": [
+          3,
+          3,
+          1,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r75",
+      "description": "Requirement r75 from Table 3",
+      "attributes": {
+        "effort": 4,
+        "satisfaction": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r76",
+      "description": "Requirement r76 from Table 3",
+      "attributes": {
+        "effort": 20,
+        "satisfaction": [
+          1,
+          1,
+          2,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r77",
+      "description": "Requirement r77 from Table 3",
+      "attributes": {
+        "effort": 10,
+        "satisfaction": [
+          2,
+          3,
+          3,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r78",
+      "description": "Requirement r78 from Table 3",
+      "attributes": {
+        "effort": 20,
+        "satisfaction": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r79",
+      "description": "Requirement r79 from Table 3",
+      "attributes": {
+        "effort": 3,
+        "satisfaction": [
+          3,
+          1,
+          1,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r80",
+      "description": "Requirement r80 from Table 3",
+      "attributes": {
+        "effort": 20,
+        "satisfaction": [
+          1,
+          2,
+          2,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r81",
+      "description": "Requirement r81 from Table 3",
+      "attributes": {
+        "effort": 10,
+        "satisfaction": [
+          2,
+          1,
+          1,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r82",
+      "description": "Requirement r82 from Table 3",
+      "attributes": {
+        "effort": 16,
+        "satisfaction": [
+          1,
+          2,
+          2,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r83",
+      "description": "Requirement r83 from Table 3",
+      "attributes": {
+        "effort": 19,
+        "satisfaction": [
+          3,
+          1,
+          3,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r84",
+      "description": "Requirement r84 from Table 3",
+      "attributes": {
+        "effort": 3,
+        "satisfaction": [
+          1,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r85",
+      "description": "Requirement r85 from Table 3",
+      "attributes": {
+        "effort": 12,
+        "satisfaction": [
+          2,
+          2,
+          3,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r86",
+      "description": "Requirement r86 from Table 3",
+      "attributes": {
+        "effort": 16,
+        "satisfaction": [
+          2,
+          1,
+          1,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r87",
+      "description": "Requirement r87 from Table 3",
+      "attributes": {
+        "effort": 15,
+        "satisfaction": [
+          2,
+          3,
+          2,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r88",
+      "description": "Requirement r88 from Table 3",
+      "attributes": {
+        "effort": 1,
+        "satisfaction": [
+          1,
+          2,
+          2,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r89",
+      "description": "Requirement r89 from Table 3",
+      "attributes": {
+        "effort": 6,
+        "satisfaction": [
+          3,
+          2,
+          3,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r90",
+      "description": "Requirement r90 from Table 3",
+      "attributes": {
+        "effort": 7,
+        "satisfaction": [
+          2,
+          2,
+          3,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r91",
+      "description": "Requirement r91 from Table 3",
+      "attributes": {
+        "effort": 15,
+        "satisfaction": [
+          2,
+          3,
+          3,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r92",
+      "description": "Requirement r92 from Table 3",
+      "attributes": {
+        "effort": 18,
+        "satisfaction": [
+          3,
+          2,
+          3,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r93",
+      "description": "Requirement r93 from Table 3",
+      "attributes": {
+        "effort": 4,
+        "satisfaction": [
+          1,
+          2,
+          2,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r94",
+      "description": "Requirement r94 from Table 3",
+      "attributes": {
+        "effort": 7,
+        "satisfaction": [
+          1,
+          3,
+          1,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r95",
+      "description": "Requirement r95 from Table 3",
+      "attributes": {
+        "effort": 2,
+        "satisfaction": [
+          1,
+          2,
+          1,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r96",
+      "description": "Requirement r96 from Table 3",
+      "attributes": {
+        "effort": 7,
+        "satisfaction": [
+          2,
+          2,
+          2,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r97",
+      "description": "Requirement r97 from Table 3",
+      "attributes": {
+        "effort": 8,
+        "satisfaction": [
+          1,
+          1,
+          3,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r98",
+      "description": "Requirement r98 from Table 3",
+      "attributes": {
+        "effort": 7,
+        "satisfaction": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r99",
+      "description": "Requirement r99 from Table 3",
+      "attributes": {
+        "effort": 7,
+        "satisfaction": [
+          1,
+          1,
+          2,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r100",
+      "description": "Requirement r100 from Table 3",
+      "attributes": {
+        "effort": 3,
+        "satisfaction": [
+          1,
+          1,
+          3,
+          3,
+          3
+        ]
+      }
+    }
+  ],
+  "relationships": {
+    "precedences": [
+      {
+        "from": "r24",
+        "to": "r2"
+      },
+      {
+        "from": "r26",
+        "to": "r3"
+      },
+      {
+        "from": "r27",
+        "to": "r3"
+      },
+      {
+        "from": "r28",
+        "to": "r3"
+      },
+      {
+        "from": "r29",
+        "to": "r3"
+      },
+      {
+        "from": "r5",
+        "to": "r4"
+      },
+      {
+        "from": "r7",
+        "to": "r6"
+      },
+      {
+        "from": "r30",
+        "to": "r7"
+      },
+      {
+        "from": "r32",
+        "to": "r10"
+      },
+      {
+        "from": "r33",
+        "to": "r10"
+      },
+      {
+        "from": "r32",
+        "to": "r14"
+      },
+      {
+        "from": "r34",
+        "to": "r14"
+      },
+      {
+        "from": "r37",
+        "to": "r14"
+      },
+      {
+        "from": "r38",
+        "to": "r14"
+      },
+      {
+        "from": "r39",
+        "to": "r16"
+      },
+      {
+        "from": "r40",
+        "to": "r16"
+      },
+      {
+        "from": "r43",
+        "to": "r17"
+      },
+      {
+        "from": "r49",
+        "to": "r29"
+      },
+      {
+        "from": "r50",
+        "to": "r29"
+      },
+      {
+        "from": "r51",
+        "to": "r29"
+      },
+      {
+        "from": "r52",
+        "to": "r30"
+      },
+      {
+        "from": "r53",
+        "to": "r30"
+      },
+      {
+        "from": "r55",
+        "to": "r31"
+      },
+      {
+        "from": "r56",
+        "to": "r32"
+      },
+      {
+        "from": "r57",
+        "to": "r32"
+      },
+      {
+        "from": "r58",
+        "to": "r33"
+      },
+      {
+        "from": "r61",
+        "to": "r36"
+      },
+      {
+        "from": "r63",
+        "to": "r39"
+      },
+      {
+        "from": "r64",
+        "to": "r40"
+      },
+      {
+        "from": "r65",
+        "to": "r43"
+      },
+      {
+        "from": "r68",
+        "to": "r46"
+      },
+      {
+        "from": "r70",
+        "to": "r47"
+      },
+      {
+        "from": "r79",
+        "to": "r55"
+      },
+      {
+        "from": "r80",
+        "to": "r56"
+      },
+      {
+        "from": "r80",
+        "to": "r57"
+      },
+      {
+        "from": "r83",
+        "to": "r62"
+      },
+      {
+        "from": "r84",
+        "to": "r62"
+      },
+      {
+        "from": "r87",
+        "to": "r64"
+      }
+    ],
+    "couplings": [
+      {
+        "req1": "r21",
+        "req2": "r22"
+      },
+      {
+        "req1": "r32",
+        "req2": "r33"
+      },
+      {
+        "req1": "r46",
+        "req2": "r47"
+      },
+      {
+        "req1": "r65",
+        "req2": "r66"
+      }
+    ],
+    "exclusions": [],
+    "value_dependencies": []
+  },
+  "value_dependencies": []
+}

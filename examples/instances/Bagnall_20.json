@@ -1,0 +1,401 @@
+{
+  "name": "Bagnall_20",
+  "num_requirements": 20,
+  "metadata": {
+    "source": "del Sagrado, del Aguila, and Orellana, Multi-objective ant colony optimization for requirements selection, Empirical Software Engineering 20 (2015) 577-610",
+    "source_dataset": "Dataset 1, Tables 1 and 2",
+    "adaptation_notes": [
+      "The JSON preserves the 20 original candidate requirements before coupling and precedence preprocessing.",
+      "Customer priorities are stored as multivalued satisfaction attributes ordered c1-c5.",
+      "The paper defines global satisfaction as a weighted sum. NRP-Exp uses weighted_mean to preserve source ratings; multiply the aggregated value by 14, the sum of customer weights, to recover the paper scale.",
+      "Paper implication ri => rj is represented as from=ri, to=rj, meaning that selecting ri requires rj.",
+      "The paper evaluates effort bounds 25, 43, and 60, corresponding to 30%, 50%, and 70% of total effort."
+    ],
+    "paper_effort_bounds": [
+      25,
+      43,
+      60
+    ],
+    "paper_customer_weights": [
+      1.0,
+      4.0,
+      2.0,
+      3.0,
+      4.0
+    ]
+  },
+  "attribute_definitions": {
+    "effort": {
+      "type": "scalar",
+      "description": "Development effort reported in Table 1",
+      "coupling_rule": "sum",
+      "evaluation_rule": "sum"
+    },
+    "satisfaction": {
+      "type": "multivalued",
+      "evaluator_group": "stakeholders",
+      "description": "Per-customer priority reported in Table 1",
+      "coupling_rule": "sum",
+      "aggregation_rule": "weighted_mean",
+      "evaluation_rule": "sum"
+    }
+  },
+  "stakeholders": [
+    {
+      "id": "c1",
+      "weight": 1.0,
+      "description": "Customer c1 from Table 2"
+    },
+    {
+      "id": "c2",
+      "weight": 4.0,
+      "description": "Customer c2 from Table 2"
+    },
+    {
+      "id": "c3",
+      "weight": 2.0,
+      "description": "Customer c3 from Table 2"
+    },
+    {
+      "id": "c4",
+      "weight": 3.0,
+      "description": "Customer c4 from Table 2"
+    },
+    {
+      "id": "c5",
+      "weight": 4.0,
+      "description": "Customer c5 from Table 2"
+    }
+  ],
+  "developers": [],
+  "requirements": [
+    {
+      "id": "r1",
+      "description": "Requirement r1 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 1,
+        "satisfaction": [
+          4,
+          4,
+          5,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "r2",
+      "description": "Requirement r2 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 4,
+        "satisfaction": [
+          2,
+          4,
+          3,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "r3",
+      "description": "Requirement r3 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 2,
+        "satisfaction": [
+          1,
+          2,
+          3,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r4",
+      "description": "Requirement r4 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 3,
+        "satisfaction": [
+          2,
+          2,
+          3,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "r5",
+      "description": "Requirement r5 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 4,
+        "satisfaction": [
+          5,
+          4,
+          4,
+          3,
+          5
+        ]
+      }
+    },
+    {
+      "id": "r6",
+      "description": "Requirement r6 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 7,
+        "satisfaction": [
+          5,
+          5,
+          5,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "r7",
+      "description": "Requirement r7 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 10,
+        "satisfaction": [
+          2,
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r8",
+      "description": "Requirement r8 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 2,
+        "satisfaction": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "r9",
+      "description": "Requirement r9 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 1,
+        "satisfaction": [
+          4,
+          4,
+          4,
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "id": "r10",
+      "description": "Requirement r10 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 3,
+        "satisfaction": [
+          4,
+          5,
+          4,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r11",
+      "description": "Requirement r11 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 2,
+        "satisfaction": [
+          2,
+          2,
+          2,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "r12",
+      "description": "Requirement r12 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 5,
+        "satisfaction": [
+          3,
+          3,
+          4,
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "id": "r13",
+      "description": "Requirement r13 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 8,
+        "satisfaction": [
+          4,
+          2,
+          1,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r14",
+      "description": "Requirement r14 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 2,
+        "satisfaction": [
+          2,
+          4,
+          5,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "id": "r15",
+      "description": "Requirement r15 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 1,
+        "satisfaction": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "r16",
+      "description": "Requirement r16 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 4,
+        "satisfaction": [
+          4,
+          2,
+          1,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r17",
+      "description": "Requirement r17 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 10,
+        "satisfaction": [
+          4,
+          3,
+          2,
+          5,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r18",
+      "description": "Requirement r18 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 4,
+        "satisfaction": [
+          1,
+          2,
+          3,
+          4,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r19",
+      "description": "Requirement r19 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 8,
+        "satisfaction": [
+          3,
+          3,
+          3,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "r20",
+      "description": "Requirement r20 from Dataset 1, Table 1",
+      "attributes": {
+        "effort": 4,
+        "satisfaction": [
+          2,
+          1,
+          2,
+          2,
+          1
+        ]
+      }
+    }
+  ],
+  "relationships": {
+    "precedences": [
+      {
+        "from": "r4",
+        "to": "r8"
+      },
+      {
+        "from": "r4",
+        "to": "r17"
+      },
+      {
+        "from": "r8",
+        "to": "r17"
+      },
+      {
+        "from": "r9",
+        "to": "r3"
+      },
+      {
+        "from": "r9",
+        "to": "r6"
+      },
+      {
+        "from": "r9",
+        "to": "r12"
+      },
+      {
+        "from": "r9",
+        "to": "r19"
+      },
+      {
+        "from": "r11",
+        "to": "r19"
+      }
+    ],
+    "couplings": [
+      {
+        "req1": "r3",
+        "req2": "r12"
+      },
+      {
+        "req1": "r11",
+        "req2": "r13"
+      }
+    ],
+    "exclusions": []
+  },
+  "value_dependencies": []
+}

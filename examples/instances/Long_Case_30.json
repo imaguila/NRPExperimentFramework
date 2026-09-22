@@ -1,0 +1,991 @@
+{
+  "name": "Long_Case_30",
+  "description": "Larger validation case extending Concise_Case_11 with 30 requirements, evaluator-dependent attributes, transitive couplings, multiple exclusions, precedences, and value dependencies.",
+  "metadata": {
+    "case_family": "Long_Case",
+    "seed": 20260902,
+    "purpose": "complementary scalability validation"
+  },
+  "attribute_definitions": {
+    "satisfaction": {
+      "type": "multivalued",
+      "evaluator_group": "stakeholders",
+      "aggregation_rule": "weighted_mean",
+      "coupling_rule": "sum",
+      "evaluation_rule": "sum"
+    },
+    "dissatisfaction": {
+      "type": "multivalued",
+      "evaluator_group": "stakeholders",
+      "aggregation_rule": "weighted_mean",
+      "coupling_rule": "sum",
+      "evaluation_rule": "sum"
+    },
+    "risk": {
+      "type": "multivalued",
+      "evaluator_group": "developers",
+      "aggregation_rule": "weighted_mean",
+      "coupling_rule": "max",
+      "evaluation_rule": "sum"
+    },
+    "effort": {
+      "type": "scalar",
+      "coupling_rule": "sum",
+      "evaluation_rule": "sum"
+    }
+  },
+  "stakeholders": [
+    {
+      "id": "S1",
+      "weight": 1.0
+    },
+    {
+      "id": "S2",
+      "weight": 2.0
+    },
+    {
+      "id": "S3",
+      "weight": 1.5
+    },
+    {
+      "id": "S4",
+      "weight": 0.5
+    }
+  ],
+  "developers": [
+    {
+      "id": "D1",
+      "weight": 1.0
+    },
+    {
+      "id": "D2",
+      "weight": 2.0
+    },
+    {
+      "id": "D3",
+      "weight": 1.0
+    }
+  ],
+  "requirements": [
+    {
+      "id": "r1",
+      "description": "Long-case requirement 1",
+      "attributes": {
+        "satisfaction": [
+          3,
+          5,
+          3,
+          1
+        ],
+        "dissatisfaction": [
+          4,
+          0,
+          4,
+          2
+        ],
+        "risk": [
+          1,
+          5,
+          4
+        ],
+        "effort": 12
+      }
+    },
+    {
+      "id": "r2",
+      "description": "Long-case requirement 2",
+      "attributes": {
+        "satisfaction": [
+          4,
+          4,
+          4,
+          3
+        ],
+        "dissatisfaction": [
+          4,
+          1,
+          3,
+          4
+        ],
+        "risk": [
+          2,
+          5,
+          1
+        ],
+        "effort": 3
+      }
+    },
+    {
+      "id": "r3",
+      "description": "Long-case requirement 3",
+      "attributes": {
+        "satisfaction": [
+          1,
+          2,
+          4,
+          3
+        ],
+        "dissatisfaction": [
+          3,
+          3,
+          3,
+          4
+        ],
+        "risk": [
+          2,
+          3,
+          4
+        ],
+        "effort": 6
+      }
+    },
+    {
+      "id": "r4",
+      "description": "Long-case requirement 4",
+      "attributes": {
+        "satisfaction": [
+          2,
+          3,
+          4,
+          1
+        ],
+        "dissatisfaction": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "risk": [
+          4,
+          5,
+          2
+        ],
+        "effort": 11
+      }
+    },
+    {
+      "id": "r5",
+      "description": "Long-case requirement 5",
+      "attributes": {
+        "satisfaction": [
+          2,
+          4,
+          3,
+          1
+        ],
+        "dissatisfaction": [
+          1,
+          1,
+          0,
+          3
+        ],
+        "risk": [
+          2,
+          1,
+          2
+        ],
+        "effort": 11
+      }
+    },
+    {
+      "id": "r6",
+      "description": "Long-case requirement 6",
+      "attributes": {
+        "satisfaction": [
+          2,
+          1,
+          5,
+          5
+        ],
+        "dissatisfaction": [
+          4,
+          3,
+          2,
+          4
+        ],
+        "risk": [
+          5,
+          2,
+          2
+        ],
+        "effort": 4
+      }
+    },
+    {
+      "id": "r7",
+      "description": "Long-case requirement 7",
+      "attributes": {
+        "satisfaction": [
+          3,
+          4,
+          2,
+          4
+        ],
+        "dissatisfaction": [
+          1,
+          3,
+          0,
+          1
+        ],
+        "risk": [
+          3,
+          1,
+          1
+        ],
+        "effort": 6
+      }
+    },
+    {
+      "id": "r8",
+      "description": "Long-case requirement 8",
+      "attributes": {
+        "satisfaction": [
+          5,
+          4,
+          5,
+          3
+        ],
+        "dissatisfaction": [
+          4,
+          4,
+          3,
+          2
+        ],
+        "risk": [
+          4,
+          2,
+          5
+        ],
+        "effort": 2
+      }
+    },
+    {
+      "id": "r9",
+      "description": "Long-case requirement 9",
+      "attributes": {
+        "satisfaction": [
+          2,
+          5,
+          1,
+          5
+        ],
+        "dissatisfaction": [
+          4,
+          4,
+          3,
+          3
+        ],
+        "risk": [
+          4,
+          2,
+          1
+        ],
+        "effort": 5
+      }
+    },
+    {
+      "id": "r10",
+      "description": "Long-case requirement 10",
+      "attributes": {
+        "satisfaction": [
+          3,
+          5,
+          3,
+          5
+        ],
+        "dissatisfaction": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "risk": [
+          4,
+          2,
+          4
+        ],
+        "effort": 3
+      }
+    },
+    {
+      "id": "r11",
+      "description": "Long-case requirement 11",
+      "attributes": {
+        "satisfaction": [
+          5,
+          1,
+          1,
+          3
+        ],
+        "dissatisfaction": [
+          0,
+          4,
+          4,
+          4
+        ],
+        "risk": [
+          3,
+          2,
+          3
+        ],
+        "effort": 10
+      }
+    },
+    {
+      "id": "r12",
+      "description": "Long-case requirement 12",
+      "attributes": {
+        "satisfaction": [
+          1,
+          5,
+          4,
+          4
+        ],
+        "dissatisfaction": [
+          3,
+          3,
+          3,
+          4
+        ],
+        "risk": [
+          5,
+          2,
+          1
+        ],
+        "effort": 12
+      }
+    },
+    {
+      "id": "r13",
+      "description": "Long-case requirement 13",
+      "attributes": {
+        "satisfaction": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "dissatisfaction": [
+          2,
+          3,
+          1,
+          2
+        ],
+        "risk": [
+          1,
+          3,
+          3
+        ],
+        "effort": 4
+      }
+    },
+    {
+      "id": "r14",
+      "description": "Long-case requirement 14",
+      "attributes": {
+        "satisfaction": [
+          3,
+          3,
+          3,
+          1
+        ],
+        "dissatisfaction": [
+          1,
+          1,
+          4,
+          4
+        ],
+        "risk": [
+          5,
+          5,
+          4
+        ],
+        "effort": 7
+      }
+    },
+    {
+      "id": "r15",
+      "description": "Long-case requirement 15",
+      "attributes": {
+        "satisfaction": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "dissatisfaction": [
+          2,
+          4,
+          2,
+          1
+        ],
+        "risk": [
+          1,
+          3,
+          4
+        ],
+        "effort": 5
+      }
+    },
+    {
+      "id": "r16",
+      "description": "Long-case requirement 16",
+      "attributes": {
+        "satisfaction": [
+          5,
+          4,
+          5,
+          4
+        ],
+        "dissatisfaction": [
+          2,
+          3,
+          2,
+          2
+        ],
+        "risk": [
+          4,
+          5,
+          5
+        ],
+        "effort": 2
+      }
+    },
+    {
+      "id": "r17",
+      "description": "Long-case requirement 17",
+      "attributes": {
+        "satisfaction": [
+          1,
+          4,
+          4,
+          2
+        ],
+        "dissatisfaction": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "risk": [
+          2,
+          5,
+          4
+        ],
+        "effort": 5
+      }
+    },
+    {
+      "id": "r18",
+      "description": "Long-case requirement 18",
+      "attributes": {
+        "satisfaction": [
+          4,
+          1,
+          4,
+          4
+        ],
+        "dissatisfaction": [
+          1,
+          1,
+          3,
+          0
+        ],
+        "risk": [
+          5,
+          2,
+          4
+        ],
+        "effort": 2
+      }
+    },
+    {
+      "id": "r19",
+      "description": "Long-case requirement 19",
+      "attributes": {
+        "satisfaction": [
+          1,
+          5,
+          2,
+          4
+        ],
+        "dissatisfaction": [
+          3,
+          4,
+          0,
+          1
+        ],
+        "risk": [
+          5,
+          3,
+          4
+        ],
+        "effort": 8
+      }
+    },
+    {
+      "id": "r20",
+      "description": "Long-case requirement 20",
+      "attributes": {
+        "satisfaction": [
+          2,
+          5,
+          1,
+          3
+        ],
+        "dissatisfaction": [
+          1,
+          1,
+          4,
+          2
+        ],
+        "risk": [
+          4,
+          3,
+          3
+        ],
+        "effort": 10
+      }
+    },
+    {
+      "id": "r21",
+      "description": "Long-case requirement 21",
+      "attributes": {
+        "satisfaction": [
+          2,
+          5,
+          5,
+          2
+        ],
+        "dissatisfaction": [
+          3,
+          1,
+          3,
+          4
+        ],
+        "risk": [
+          3,
+          2,
+          4
+        ],
+        "effort": 9
+      }
+    },
+    {
+      "id": "r22",
+      "description": "Long-case requirement 22",
+      "attributes": {
+        "satisfaction": [
+          4,
+          1,
+          2,
+          1
+        ],
+        "dissatisfaction": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "risk": [
+          3,
+          5,
+          1
+        ],
+        "effort": 5
+      }
+    },
+    {
+      "id": "r23",
+      "description": "Long-case requirement 23",
+      "attributes": {
+        "satisfaction": [
+          4,
+          2,
+          5,
+          1
+        ],
+        "dissatisfaction": [
+          0,
+          4,
+          2,
+          3
+        ],
+        "risk": [
+          4,
+          2,
+          5
+        ],
+        "effort": 3
+      }
+    },
+    {
+      "id": "r24",
+      "description": "Long-case requirement 24",
+      "attributes": {
+        "satisfaction": [
+          5,
+          1,
+          2,
+          2
+        ],
+        "dissatisfaction": [
+          2,
+          3,
+          4,
+          1
+        ],
+        "risk": [
+          2,
+          5,
+          5
+        ],
+        "effort": 3
+      }
+    },
+    {
+      "id": "r25",
+      "description": "Long-case requirement 25",
+      "attributes": {
+        "satisfaction": [
+          2,
+          3,
+          2,
+          1
+        ],
+        "dissatisfaction": [
+          2,
+          2,
+          2,
+          1
+        ],
+        "risk": [
+          5,
+          3,
+          1
+        ],
+        "effort": 3
+      }
+    },
+    {
+      "id": "r26",
+      "description": "Long-case requirement 26",
+      "attributes": {
+        "satisfaction": [
+          3,
+          1,
+          1,
+          3
+        ],
+        "dissatisfaction": [
+          2,
+          3,
+          2,
+          0
+        ],
+        "risk": [
+          2,
+          2,
+          4
+        ],
+        "effort": 11
+      }
+    },
+    {
+      "id": "r27",
+      "description": "Long-case requirement 27",
+      "attributes": {
+        "satisfaction": [
+          2,
+          5,
+          4,
+          4
+        ],
+        "dissatisfaction": [
+          4,
+          4,
+          3,
+          4
+        ],
+        "risk": [
+          3,
+          2,
+          5
+        ],
+        "effort": 5
+      }
+    },
+    {
+      "id": "r28",
+      "description": "Long-case requirement 28",
+      "attributes": {
+        "satisfaction": [
+          2,
+          3,
+          3,
+          2
+        ],
+        "dissatisfaction": [
+          1,
+          3,
+          0,
+          1
+        ],
+        "risk": [
+          3,
+          3,
+          3
+        ],
+        "effort": 5
+      }
+    },
+    {
+      "id": "r29",
+      "description": "Long-case requirement 29",
+      "attributes": {
+        "satisfaction": [
+          4,
+          4,
+          3,
+          1
+        ],
+        "dissatisfaction": [
+          4,
+          0,
+          4,
+          4
+        ],
+        "risk": [
+          5,
+          1,
+          4
+        ],
+        "effort": 6
+      }
+    },
+    {
+      "id": "r30",
+      "description": "Long-case requirement 30",
+      "attributes": {
+        "satisfaction": [
+          1,
+          3,
+          4,
+          4
+        ],
+        "dissatisfaction": [
+          3,
+          1,
+          0,
+          1
+        ],
+        "risk": [
+          5,
+          4,
+          3
+        ],
+        "effort": 5
+      }
+    }
+  ],
+  "relationships": {
+    "precedences": [
+      {
+        "req1": "r3",
+        "req2": "r1"
+      },
+      {
+        "req1": "r4",
+        "req2": "r1"
+      },
+      {
+        "req1": "r6",
+        "req2": "r2"
+      },
+      {
+        "req1": "r7",
+        "req2": "r3"
+      },
+      {
+        "req1": "r8",
+        "req2": "r3"
+      },
+      {
+        "req1": "r10",
+        "req2": "r4"
+      },
+      {
+        "req1": "r11",
+        "req2": "r5"
+      },
+      {
+        "req1": "r12",
+        "req2": "r6"
+      },
+      {
+        "req1": "r13",
+        "req2": "r7"
+      },
+      {
+        "req1": "r14",
+        "req2": "r7"
+      },
+      {
+        "req1": "r15",
+        "req2": "r8"
+      },
+      {
+        "req1": "r16",
+        "req2": "r9"
+      },
+      {
+        "req1": "r17",
+        "req2": "r10"
+      },
+      {
+        "req1": "r18",
+        "req2": "r11"
+      },
+      {
+        "req1": "r19",
+        "req2": "r12"
+      },
+      {
+        "req1": "r20",
+        "req2": "r13"
+      },
+      {
+        "req1": "r21",
+        "req2": "r13"
+      },
+      {
+        "req1": "r22",
+        "req2": "r14"
+      },
+      {
+        "req1": "r23",
+        "req2": "r15"
+      },
+      {
+        "req1": "r24",
+        "req2": "r16"
+      },
+      {
+        "req1": "r25",
+        "req2": "r17"
+      },
+      {
+        "req1": "r26",
+        "req2": "r18"
+      },
+      {
+        "req1": "r27",
+        "req2": "r19"
+      },
+      {
+        "req1": "r28",
+        "req2": "r20"
+      },
+      {
+        "req1": "r29",
+        "req2": "r21"
+      },
+      {
+        "req1": "r30",
+        "req2": "r22"
+      }
+    ],
+    "couplings": [
+      {
+        "req1": "r4",
+        "req2": "r5"
+      },
+      {
+        "req1": "r5",
+        "req2": "r6"
+      },
+      {
+        "req1": "r12",
+        "req2": "r13"
+      },
+      {
+        "req1": "r13",
+        "req2": "r14"
+      },
+      {
+        "req1": "r23",
+        "req2": "r24"
+      }
+    ],
+    "exclusions": [
+      {
+        "req1": "r9",
+        "req2": "r10"
+      },
+      {
+        "req1": "r17",
+        "req2": "r18"
+      },
+      {
+        "req1": "r25",
+        "req2": "r26"
+      }
+    ],
+    "value_dependencies": [
+      {
+        "reqs": [
+          "r4",
+          "r6"
+        ],
+        "attribute": "effort",
+        "effect": "delta",
+        "factor": -3.0
+      },
+      {
+        "reqs": [
+          "r12",
+          "r14"
+        ],
+        "attribute": "satisfaction",
+        "effect": "multiplier",
+        "factor": 1.15
+      },
+      {
+        "reqs": [
+          "r7",
+          "r15"
+        ],
+        "attribute": "satisfaction",
+        "effect": "delta",
+        "factor": 2.0
+      },
+      {
+        "reqs": [
+          "r9",
+          "r16"
+        ],
+        "attribute": "risk",
+        "effect": "multiplier",
+        "factor": 0.85
+      },
+      {
+        "reqs": [
+          "r20",
+          "r28"
+        ],
+        "attribute": "effort",
+        "effect": "delta",
+        "factor": -2.0
+      },
+      {
+        "reqs": [
+          "r23",
+          "r24"
+        ],
+        "attribute": "dissatisfaction",
+        "effect": "multiplier",
+        "factor": 0.8
+      }
+    ]
+  }
+}

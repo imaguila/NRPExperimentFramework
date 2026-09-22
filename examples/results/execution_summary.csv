@@ -1,0 +1,2 @@
+Solver,Variant,Execution time (s),Weight samples,Solutions,Hypervolume,Spacing,Spread
+GreedySolver,0,0.10421640006825328,25,25,1.0,0.0,0.0

@@ -1,0 +1,2003 @@
+{
+  "name": "WordProc_50",
+  "num_requirements": 50,
+  "description": "Word Processing Tool release-planning instance reconstructed from the original workbook.",
+  "metadata": {
+    "source_files": [
+      "wordproc.xls",
+      "wordprocdataset.txt"
+    ],
+    "project": {
+      "title": "word weighted groups",
+      "description": "Word Processing Tool",
+      "releases": [
+        {
+          "name": "Winter, 2008 Release",
+          "weight": 9.0,
+          "criterion": "Urgency",
+          "criterion_weight": 9.0
+        },
+        {
+          "name": "Spring, 2008 Release",
+          "weight": 8.0,
+          "criterion": "Value",
+          "criterion_weight": 5.0
+        },
+        {
+          "name": "Fall, 2008 Release",
+          "weight": 8.0
+        }
+      ]
+    },
+    "adaptation_notes": [
+      "The JSON represents all 50 requirements listed in the Requirements worksheet.",
+      "Effort is the sum of Requirement Elicitation, Design, Application Development, External Tools Development, and QA / Testing estimates.",
+      "The supplied text file contains 42 already transformed decision rows and is retained as a reference artefact; the original 50-requirement JSON is reconstructed from the workbook sheets.",
+      "For every requirement, effort is calculated as the sum of the five resource-estimate columns in the workbook.",
+      "Value and urgency preserve the four original stakeholder scores; weighted_mean is used for evaluator aggregation.",
+      "The Precedes column is represented literally as from=<row requirement>, to=<listed requirement>.",
+      "Coupling lists are expanded into pairwise source relationships; transitive components are left to NRP-Exp preprocessing.",
+      "Advanced dependencies modify the value attribute and are represented as multipliers 1+p, where p is the stated percentage increase.",
+      "Release-specific resource capacities and release weights are retained as metadata and are not collapsed into a single threshold constraint."
+    ],
+    "release_resource_capacities": {
+      "Winter, 2008 Release": {
+        "Requirement Elicitation": 150.0,
+        "Design": 150.0,
+        "Application Development": 200.0,
+        "External Tools Development": 75.0,
+        "QA / Testing": 150.0
+      },
+      "Spring, 2008 Release": {
+        "Requirement Elicitation": 150.0,
+        "Design": 150.0,
+        "Application Development": 180.0,
+        "External Tools Development": 73.0,
+        "QA / Testing": 140.0
+      },
+      "Fall, 2008 Release": {
+        "Requirement Elicitation": 150.0,
+        "Design": 150.0,
+        "Application Development": 175.0,
+        "External Tools Development": 70.0,
+        "QA / Testing": 130.0
+      }
+    },
+    "txt_transformed_rows": 42
+  },
+  "attribute_definitions": {
+    "effort": {
+      "type": "scalar",
+      "description": "Total person-hours across the five resource-estimate categories",
+      "coupling_rule": "sum",
+      "evaluation_rule": "sum"
+    },
+    "value": {
+      "type": "multivalued",
+      "evaluator_group": "stakeholders",
+      "description": "Per-stakeholder value score from the Value worksheet",
+      "coupling_rule": "sum",
+      "aggregation_rule": "weighted_mean",
+      "evaluation_rule": "sum"
+    },
+    "urgency": {
+      "type": "multivalued",
+      "evaluator_group": "stakeholders",
+      "description": "Per-stakeholder urgency score from the Urgency worksheet",
+      "coupling_rule": "sum",
+      "aggregation_rule": "weighted_mean",
+      "evaluation_rule": "sum"
+    }
+  },
+  "stakeholders": [
+    {
+      "id": "stakeholder_1",
+      "weight": 9.0,
+      "description": "Stakeholder 1"
+    },
+    {
+      "id": "stakeholder_2",
+      "weight": 3.0,
+      "description": "Stakeholder 2"
+    },
+    {
+      "id": "stakeholder_3",
+      "weight": 5.0,
+      "description": "Stakeholder 3"
+    },
+    {
+      "id": "stakeholder_4",
+      "weight": 7.0,
+      "description": "Stakeholder 4"
+    }
+  ],
+  "developers": [],
+  "requirements": [
+    {
+      "id": "File-1",
+      "name": "New File",
+      "description": "Crete a New File",
+      "metadata": {
+        "source_group": "View",
+        "resource_estimates": {
+          "Requirement Elicitation": 15,
+          "Design": 17,
+          "Application Development": 22,
+          "External Tools Development": 0,
+          "QA / Testing": 12
+        }
+      },
+      "attributes": {
+        "effort": 66,
+        "value": [
+          8,
+          9,
+          9,
+          9
+        ],
+        "urgency": [
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "id": "File-2",
+      "name": "Open File",
+      "description": "Open an Existing File",
+      "metadata": {
+        "source_group": "Data",
+        "resource_estimates": {
+          "Requirement Elicitation": 18,
+          "Design": 20,
+          "Application Development": 25,
+          "External Tools Development": 0,
+          "QA / Testing": 13
+        }
+      },
+      "attributes": {
+        "effort": 76,
+        "value": [
+          8,
+          9,
+          9,
+          9
+        ],
+        "urgency": [
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "id": "File-3",
+      "name": "Close File",
+      "description": "Close Current File",
+      "metadata": {
+        "source_group": "Insert",
+        "resource_estimates": {
+          "Requirement Elicitation": 3,
+          "Design": 5,
+          "Application Development": 1,
+          "External Tools Development": 0,
+          "QA / Testing": 2
+        }
+      },
+      "attributes": {
+        "effort": 11,
+        "value": [
+          8,
+          9,
+          9,
+          1
+        ],
+        "urgency": [
+          9,
+          9,
+          9,
+          1
+        ]
+      }
+    },
+    {
+      "id": "File-4",
+      "name": "Save File",
+      "description": "Save a File",
+      "metadata": {
+        "source_group": "Help",
+        "resource_estimates": {
+          "Requirement Elicitation": 15,
+          "Design": 17,
+          "Application Development": 18,
+          "External Tools Development": 0,
+          "QA / Testing": 13
+        }
+      },
+      "attributes": {
+        "effort": 63,
+        "value": [
+          8,
+          9,
+          9,
+          9
+        ],
+        "urgency": [
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "id": "File-5",
+      "name": "Save as Different File Format",
+      "description": "Save a File as a Different File Type",
+      "metadata": {
+        "source_group": "Tools",
+        "resource_estimates": {
+          "Requirement Elicitation": 16,
+          "Design": 14,
+          "Application Development": 18,
+          "External Tools Development": 0,
+          "QA / Testing": 17
+        }
+      },
+      "attributes": {
+        "effort": 65,
+        "value": [
+          6,
+          5,
+          3,
+          1
+        ],
+        "urgency": [
+          7,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "File-6",
+      "name": "Search File",
+      "description": "Search for a File in The Entire PC containing some Text",
+      "metadata": {
+        "source_group": "Format",
+        "resource_estimates": {
+          "Requirement Elicitation": 20,
+          "Design": 18,
+          "Application Development": 25,
+          "External Tools Development": 0,
+          "QA / Testing": 18
+        }
+      },
+      "attributes": {
+        "effort": 81,
+        "value": [
+          3,
+          3,
+          5,
+          5
+        ],
+        "urgency": [
+          4,
+          5,
+          9,
+          5
+        ]
+      }
+    },
+    {
+      "id": "File-7",
+      "name": "Protect File",
+      "description": "Make a File Password Protected",
+      "metadata": {
+        "source_group": "Editing",
+        "resource_estimates": {
+          "Requirement Elicitation": 5,
+          "Design": 7,
+          "Application Development": 4,
+          "External Tools Development": 0,
+          "QA / Testing": 3
+        }
+      },
+      "attributes": {
+        "effort": 19,
+        "value": [
+          3,
+          3,
+          1,
+          5
+        ],
+        "urgency": [
+          2,
+          3,
+          1,
+          5
+        ]
+      }
+    },
+    {
+      "id": "File-8",
+      "name": "Print Preview",
+      "description": "Print Preview a File",
+      "metadata": {
+        "source_group": "File",
+        "resource_estimates": {
+          "Requirement Elicitation": 15,
+          "Design": 13,
+          "Application Development": 13,
+          "External Tools Development": 0,
+          "QA / Testing": 11
+        }
+      },
+      "attributes": {
+        "effort": 52,
+        "value": [
+          7,
+          5,
+          9,
+          9
+        ],
+        "urgency": [
+          8,
+          5,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "id": "File-9",
+      "name": "Print File",
+      "description": "Print Current File",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 12,
+          "Design": 10,
+          "Application Development": 10,
+          "External Tools Development": 0,
+          "QA / Testing": 10
+        }
+      },
+      "attributes": {
+        "effort": 42,
+        "value": [
+          8,
+          9,
+          9,
+          9
+        ],
+        "urgency": [
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "id": "File-10",
+      "name": "Send To",
+      "description": "Send File To Email/FAX",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 10,
+          "Design": 9,
+          "Application Development": 8,
+          "External Tools Development": 25,
+          "QA / Testing": 8
+        }
+      },
+      "attributes": {
+        "effort": 60,
+        "value": [
+          6,
+          8,
+          1,
+          5
+        ],
+        "urgency": [
+          5,
+          9,
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "id": "File-11",
+      "name": "Set Properties",
+      "description": "Set File Header Inform ton",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 5,
+          "Design": 4,
+          "Application Development": 6,
+          "External Tools Development": 0,
+          "QA / Testing": 4
+        }
+      },
+      "attributes": {
+        "effort": 19,
+        "value": [
+          2,
+          2,
+          1,
+          7
+        ],
+        "urgency": [
+          1,
+          1,
+          1,
+          7
+        ]
+      }
+    },
+    {
+      "id": "File-12",
+      "name": "Exit",
+      "description": "Save and Exit from Word Processing Application",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 3,
+          "Design": 2,
+          "Application Development": 4,
+          "External Tools Development": 0,
+          "QA / Testing": 3
+        }
+      },
+      "attributes": {
+        "effort": 12,
+        "value": [
+          8,
+          9,
+          9,
+          3
+        ],
+        "urgency": [
+          9,
+          7,
+          9,
+          3
+        ]
+      }
+    },
+    {
+      "id": "Edit-1",
+      "name": "Undo a Task",
+      "description": "Undo a Task and goes back to previous state",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 7,
+          "Design": 5,
+          "Application Development": 8,
+          "External Tools Development": 0,
+          "QA / Testing": 5
+        }
+      },
+      "attributes": {
+        "effort": 25,
+        "value": [
+          6,
+          5,
+          9,
+          8
+        ],
+        "urgency": [
+          5,
+          5,
+          9,
+          8
+        ]
+      }
+    },
+    {
+      "id": "Edit-2",
+      "name": "Redo a Task",
+      "description": "Redo the most recent Change",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 6,
+          "Design": 7,
+          "Application Development": 8,
+          "External Tools Development": 0,
+          "QA / Testing": 4
+        }
+      },
+      "attributes": {
+        "effort": 25,
+        "value": [
+          6,
+          2,
+          4,
+          8
+        ],
+        "urgency": [
+          5,
+          3,
+          5,
+          8
+        ]
+      }
+    },
+    {
+      "id": "Edit-3",
+      "name": "Cut",
+      "description": "Delete a Text and Copy to Clipboard",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 6,
+          "Design": 7,
+          "Application Development": 8,
+          "External Tools Development": 0,
+          "QA / Testing": 4
+        }
+      },
+      "attributes": {
+        "effort": 25,
+        "value": [
+          6,
+          6,
+          9,
+          8
+        ],
+        "urgency": [
+          5,
+          6,
+          9,
+          8
+        ]
+      }
+    },
+    {
+      "id": "Edit-4",
+      "name": "Copy",
+      "description": "Copy a Text",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 5,
+          "Design": 3,
+          "Application Development": 4,
+          "External Tools Development": 0,
+          "QA / Testing": 3
+        }
+      },
+      "attributes": {
+        "effort": 15,
+        "value": [
+          6,
+          6,
+          9,
+          8
+        ],
+        "urgency": [
+          5,
+          6,
+          9,
+          8
+        ]
+      }
+    },
+    {
+      "id": "Edit-5",
+      "name": "Paste",
+      "description": "Paste a Text from Clipboard",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 7,
+          "Design": 4,
+          "Application Development": 6,
+          "External Tools Development": 0,
+          "QA / Testing": 6
+        }
+      },
+      "attributes": {
+        "effort": 23,
+        "value": [
+          3,
+          6,
+          9,
+          8
+        ],
+        "urgency": [
+          4,
+          6,
+          9,
+          8
+        ]
+      }
+    },
+    {
+      "id": "Edit-6",
+      "name": "Paste Special",
+      "description": "External Linking and Embedding",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 12,
+          "Design": 10,
+          "Application Development": 10,
+          "External Tools Development": 20,
+          "QA / Testing": 11
+        }
+      },
+      "attributes": {
+        "effort": 63,
+        "value": [
+          3,
+          2,
+          4,
+          4
+        ],
+        "urgency": [
+          4,
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "id": "Edit-7",
+      "name": "Go To",
+      "description": "Go to a specific location in the current file",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 7,
+          "Design": 5,
+          "Application Development": 6,
+          "External Tools Development": 0,
+          "QA / Testing": 5
+        }
+      },
+      "attributes": {
+        "effort": 23,
+        "value": [
+          3,
+          2,
+          1,
+          4
+        ],
+        "urgency": [
+          2,
+          3,
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "id": "Edit-8",
+      "name": "Find",
+      "description": "Search for a Text in the current Document",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 6,
+          "Design": 5,
+          "Application Development": 5,
+          "External Tools Development": 0,
+          "QA / Testing": 3
+        }
+      },
+      "attributes": {
+        "effort": 19,
+        "value": [
+          6,
+          5,
+          9,
+          6
+        ],
+        "urgency": [
+          5,
+          5,
+          9,
+          6
+        ]
+      }
+    },
+    {
+      "id": "Edit-9",
+      "name": "Replace",
+      "description": "Search and Replace a Text",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 5,
+          "Design": 4,
+          "Application Development": 4,
+          "External Tools Development": 0,
+          "QA / Testing": 3
+        }
+      },
+      "attributes": {
+        "effort": 16,
+        "value": [
+          6,
+          5,
+          9,
+          6
+        ],
+        "urgency": [
+          5,
+          5,
+          9,
+          6
+        ]
+      }
+    },
+    {
+      "id": "Edit-10",
+      "name": "Select All",
+      "description": "Select All From Current File",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 5,
+          "Design": 4,
+          "Application Development": 4,
+          "External Tools Development": 0,
+          "QA / Testing": 3
+        }
+      },
+      "attributes": {
+        "effort": 16,
+        "value": [
+          6,
+          1,
+          9,
+          8
+        ],
+        "urgency": [
+          5,
+          1,
+          9,
+          8
+        ]
+      }
+    },
+    {
+      "id": "View-1",
+      "name": "Default",
+      "description": "Switch to Default View",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 4,
+          "Design": 3,
+          "Application Development": 3,
+          "External Tools Development": 0,
+          "QA / Testing": 2
+        }
+      },
+      "attributes": {
+        "effort": 12,
+        "value": [
+          4,
+          9,
+          5,
+          1
+        ],
+        "urgency": [
+          3,
+          9,
+          4,
+          1
+        ]
+      }
+    },
+    {
+      "id": "View-2",
+      "name": "Print Layout",
+      "description": "Print Layout View of Current File",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 4,
+          "Design": 3,
+          "Application Development": 3,
+          "External Tools Development": 0,
+          "QA / Testing": 3
+        }
+      },
+      "attributes": {
+        "effort": 13,
+        "value": [
+          3,
+          5,
+          7,
+          7
+        ],
+        "urgency": [
+          4,
+          2,
+          9,
+          7
+        ]
+      }
+    },
+    {
+      "id": "View-3",
+      "name": "Web layout",
+      "description": "Web Page Layout View of Current File",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 4,
+          "Design": 3,
+          "Application Development": 3,
+          "External Tools Development": 0,
+          "QA / Testing": 3
+        }
+      },
+      "attributes": {
+        "effort": 13,
+        "value": [
+          4,
+          2,
+          4,
+          1
+        ],
+        "urgency": [
+          3,
+          2,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "View-4",
+      "name": "Zoom",
+      "description": "Zoom In/Out",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 6,
+          "Design": 7,
+          "Application Development": 5,
+          "External Tools Development": 0,
+          "QA / Testing": 7
+        }
+      },
+      "attributes": {
+        "effort": 25,
+        "value": [
+          4,
+          1,
+          5,
+          1
+        ],
+        "urgency": [
+          3,
+          1,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "View-5",
+      "name": "Header/Footer",
+      "description": "Show Healer/Footer of Current File",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 2,
+          "Design": 3,
+          "Application Development": 3,
+          "External Tools Development": 0,
+          "QA / Testing": 1
+        }
+      },
+      "attributes": {
+        "effort": 9,
+        "value": [
+          3,
+          9,
+          9,
+          7
+        ],
+        "urgency": [
+          3,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "Insert-1",
+      "name": "Page Numbers",
+      "description": "Insert Page Numbers in Footer",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 2,
+          "Design": 3,
+          "Application Development": 3,
+          "External Tools Development": 0,
+          "QA / Testing": 1
+        }
+      },
+      "attributes": {
+        "effort": 9,
+        "value": [
+          2,
+          7,
+          9,
+          7
+        ],
+        "urgency": [
+          2,
+          6,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "Insert-2",
+      "name": "Date/Time",
+      "description": "Insert Date/Time in the File Footer",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 2,
+          "Design": 3,
+          "Application Development": 3,
+          "External Tools Development": 0,
+          "QA / Testing": 1
+        }
+      },
+      "attributes": {
+        "effort": 9,
+        "value": [
+          5,
+          7,
+          9,
+          7
+        ],
+        "urgency": [
+          5,
+          6,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "Insert-3",
+      "name": "Symbol",
+      "description": "Insert Symbol to the Cursor Location",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 2,
+          "Design": 3,
+          "Application Development": 3,
+          "External Tools Development": 0,
+          "QA / Testing": 1
+        }
+      },
+      "attributes": {
+        "effort": 9,
+        "value": [
+          4,
+          7,
+          9,
+          6
+        ],
+        "urgency": [
+          4,
+          6,
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "id": "Insert-4",
+      "name": "Bookmark",
+      "description": "Set/Update File Bookmark",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 1,
+          "Design": 1,
+          "Application Development": 2,
+          "External Tools Development": 0,
+          "QA / Testing": 2
+        }
+      },
+      "attributes": {
+        "effort": 6,
+        "value": [
+          5,
+          2,
+          3,
+          6
+        ],
+        "urgency": [
+          4,
+          1,
+          1,
+          6
+        ]
+      }
+    },
+    {
+      "id": "Insert-5",
+      "name": "Hyperlink",
+      "description": "Insert a Hyperlinked Text",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 1,
+          "Design": 1,
+          "Application Development": 2,
+          "External Tools Development": 0,
+          "QA / Testing": 1
+        }
+      },
+      "attributes": {
+        "effort": 5,
+        "value": [
+          5,
+          5,
+          9,
+          2
+        ],
+        "urgency": [
+          4,
+          6,
+          7,
+          2
+        ]
+      }
+    },
+    {
+      "id": "Format-1",
+      "name": "Font",
+      "description": "Change Font Setting of Selected Text",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 3,
+          "Design": 4,
+          "Application Development": 4,
+          "External Tools Development": 0,
+          "QA / Testing": 2
+        }
+      },
+      "attributes": {
+        "effort": 13,
+        "value": [
+          4,
+          9,
+          9,
+          8
+        ],
+        "urgency": [
+          4,
+          9,
+          9,
+          8
+        ]
+      }
+    },
+    {
+      "id": "Format-2",
+      "name": "Paragraph",
+      "description": "Set the Paragraph Formatting",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 5,
+          "Design": 6,
+          "Application Development": 6,
+          "External Tools Development": 0,
+          "QA / Testing": 6
+        }
+      },
+      "attributes": {
+        "effort": 23,
+        "value": [
+          3,
+          7,
+          9,
+          8
+        ],
+        "urgency": [
+          3,
+          6,
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "id": "Format-3",
+      "name": "Bullets/Numbering",
+      "description": "Insert Bullets/Numbering to Selected Text",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 4,
+          "Design": 5,
+          "Application Development": 5,
+          "External Tools Development": 0,
+          "QA / Testing": 5
+        }
+      },
+      "attributes": {
+        "effort": 19,
+        "value": [
+          3,
+          7,
+          9,
+          8
+        ],
+        "urgency": [
+          3,
+          6,
+          9,
+          8
+        ]
+      }
+    },
+    {
+      "id": "Format-4",
+      "name": "Change Case",
+      "description": "Change to Upper/Lower/Mixed Case for the Selected Text",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 4,
+          "Design": 5,
+          "Application Development": 5,
+          "External Tools Development": 0,
+          "QA / Testing": 5
+        }
+      },
+      "attributes": {
+        "effort": 19,
+        "value": [
+          2,
+          1,
+          2,
+          8
+        ],
+        "urgency": [
+          2,
+          1,
+          1,
+          8
+        ]
+      }
+    },
+    {
+      "id": "Format-5",
+      "name": "Background",
+      "description": "Change Background of the Document",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 4,
+          "Design": 5,
+          "Application Development": 5,
+          "External Tools Development": 0,
+          "QA / Testing": 5
+        }
+      },
+      "attributes": {
+        "effort": 19,
+        "value": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "urgency": [
+          1,
+          1,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "Tools-1",
+      "name": "Check Spell",
+      "description": "Spelling Check Tool",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 8,
+          "Design": 9,
+          "Application Development": 10,
+          "External Tools Development": 0,
+          "QA / Testing": 9
+        }
+      },
+      "attributes": {
+        "effort": 36,
+        "value": [
+          7,
+          6,
+          9,
+          8
+        ],
+        "urgency": [
+          6,
+          7,
+          9,
+          8
+        ]
+      }
+    },
+    {
+      "id": "Tools-2",
+      "name": "Check Grammer",
+      "description": "Grammar Check Tool",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 9,
+          "Design": 10,
+          "Application Development": 11,
+          "External Tools Development": 0,
+          "QA / Testing": 8
+        }
+      },
+      "attributes": {
+        "effort": 38,
+        "value": [
+          7,
+          3,
+          9,
+          1
+        ],
+        "urgency": [
+          6,
+          5,
+          9,
+          1
+        ]
+      }
+    },
+    {
+      "id": "Tools-3",
+      "name": "Speech",
+      "description": "Read the Text of The Document",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 3,
+          "Design": 4,
+          "Application Development": 6,
+          "External Tools Development": 0,
+          "QA / Testing": 4
+        }
+      },
+      "attributes": {
+        "effort": 17,
+        "value": [
+          2,
+          1,
+          2,
+          1
+        ],
+        "urgency": [
+          2,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "Tools-4",
+      "name": "Mail Merge",
+      "description": "Mail Merge with Existing Customer Database",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 15,
+          "Design": 14,
+          "Application Development": 13,
+          "External Tools Development": 25,
+          "QA / Testing": 13
+        }
+      },
+      "attributes": {
+        "effort": 80,
+        "value": [
+          6,
+          1,
+          3,
+          7
+        ],
+        "urgency": [
+          5,
+          1,
+          1,
+          7
+        ]
+      }
+    },
+    {
+      "id": "Tools-5",
+      "name": "Macro",
+      "description": "Create/Apply Automated Document Processing Faction",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 12,
+          "Design": 13,
+          "Application Development": 10,
+          "External Tools Development": 15,
+          "QA / Testing": 11
+        }
+      },
+      "attributes": {
+        "effort": 61,
+        "value": [
+          6,
+          1,
+          1,
+          2
+        ],
+        "urgency": [
+          5,
+          1,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "Tools-6",
+      "name": "Set Options",
+      "description": "Configure Documents Options",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 3,
+          "Design": 4,
+          "Application Development": 2,
+          "External Tools Development": 0,
+          "QA / Testing": 4
+        }
+      },
+      "attributes": {
+        "effort": 13,
+        "value": [
+          1,
+          1,
+          8,
+          2
+        ],
+        "urgency": [
+          1,
+          1,
+          9,
+          2
+        ]
+      }
+    },
+    {
+      "id": "Data-1",
+      "name": "Insert Table",
+      "description": "Insert a Table",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 5,
+          "Design": 6,
+          "Application Development": 4,
+          "External Tools Development": 0,
+          "QA / Testing": 4
+        }
+      },
+      "attributes": {
+        "effort": 19,
+        "value": [
+          6,
+          5,
+          9,
+          4
+        ],
+        "urgency": [
+          6,
+          5,
+          9,
+          4
+        ]
+      }
+    },
+    {
+      "id": "Data-2",
+      "name": "Delete Table",
+      "description": "Delete an Existing Table",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 4,
+          "Design": 5,
+          "Application Development": 3,
+          "External Tools Development": 0,
+          "QA / Testing": 3
+        }
+      },
+      "attributes": {
+        "effort": 15,
+        "value": [
+          6,
+          5,
+          9,
+          5
+        ],
+        "urgency": [
+          6,
+          5,
+          9,
+          5
+        ]
+      }
+    },
+    {
+      "id": "Data-3",
+      "name": "Table Format",
+      "description": "Format a Existing Table",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 7,
+          "Design": 6,
+          "Application Development": 6,
+          "External Tools Development": 0,
+          "QA / Testing": 6
+        }
+      },
+      "attributes": {
+        "effort": 25,
+        "value": [
+          6,
+          5,
+          9,
+          5
+        ],
+        "urgency": [
+          6,
+          5,
+          9,
+          5
+        ]
+      }
+    },
+    {
+      "id": "Data-4",
+      "name": "Sort",
+      "description": "Sort Selected Data",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 6,
+          "Design": 5,
+          "Application Development": 7,
+          "External Tools Development": 0,
+          "QA / Testing": 5
+        }
+      },
+      "attributes": {
+        "effort": 23,
+        "value": [
+          7,
+          3,
+          3,
+          5
+        ],
+        "urgency": [
+          8,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "Data-5",
+      "name": "Import Data",
+      "description": "Import Data from External Database",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 9,
+          "Design": 8,
+          "Application Development": 8,
+          "External Tools Development": 20,
+          "QA / Testing": 8
+        }
+      },
+      "attributes": {
+        "effort": 53,
+        "value": [
+          3,
+          5,
+          4,
+          6
+        ],
+        "urgency": [
+          3,
+          5,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "Help-1",
+      "name": "Help",
+      "description": "Loads Applicant Help File",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 2,
+          "Design": 3,
+          "Application Development": 3,
+          "External Tools Development": 0,
+          "QA / Testing": 3
+        }
+      },
+      "attributes": {
+        "effort": 11,
+        "value": [
+          2,
+          7,
+          9,
+          6
+        ],
+        "urgency": [
+          2,
+          5,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "id": "Help-2",
+      "name": "Search",
+      "description": "Searches a Text in the Document Help File",
+      "metadata": {
+        "source_group": null,
+        "resource_estimates": {
+          "Requirement Elicitation": 1,
+          "Design": 2,
+          "Application Development": 2,
+          "External Tools Development": 0,
+          "QA / Testing": 2
+        }
+      },
+      "attributes": {
+        "effort": 7,
+        "value": [
+          1,
+          7,
+          9,
+          6
+        ],
+        "urgency": [
+          1,
+          5,
+          7,
+          6
+        ]
+      }
+    }
+  ],
+  "relationships": {
+    "precedences": [
+      {
+        "from": "File-1",
+        "to": "File-4"
+      },
+      {
+        "from": "File-1",
+        "to": "File-5"
+      },
+      {
+        "from": "File-1",
+        "to": "File-6"
+      },
+      {
+        "from": "File-1",
+        "to": "File-7"
+      },
+      {
+        "from": "File-1",
+        "to": "File-8"
+      },
+      {
+        "from": "File-1",
+        "to": "File-9"
+      },
+      {
+        "from": "File-1",
+        "to": "File-10"
+      },
+      {
+        "from": "File-1",
+        "to": "File-11"
+      },
+      {
+        "from": "File-1",
+        "to": "View-2"
+      },
+      {
+        "from": "File-1",
+        "to": "View-3"
+      },
+      {
+        "from": "File-1",
+        "to": "View-4"
+      },
+      {
+        "from": "File-1",
+        "to": "View-5"
+      },
+      {
+        "from": "File-1",
+        "to": "Tools-1"
+      },
+      {
+        "from": "File-1",
+        "to": "Tools-2"
+      },
+      {
+        "from": "File-1",
+        "to": "File-12"
+      },
+      {
+        "from": "File-2",
+        "to": "File-3"
+      },
+      {
+        "from": "File-2",
+        "to": "File-6"
+      },
+      {
+        "from": "File-2",
+        "to": "File-7"
+      },
+      {
+        "from": "File-2",
+        "to": "File-8"
+      },
+      {
+        "from": "File-2",
+        "to": "File-9"
+      },
+      {
+        "from": "File-2",
+        "to": "File-10"
+      },
+      {
+        "from": "File-2",
+        "to": "File-11"
+      },
+      {
+        "from": "File-2",
+        "to": "Edit-1"
+      },
+      {
+        "from": "File-2",
+        "to": "Edit-2"
+      },
+      {
+        "from": "File-2",
+        "to": "View-2"
+      },
+      {
+        "from": "File-2",
+        "to": "View-3"
+      },
+      {
+        "from": "File-2",
+        "to": "View-4"
+      },
+      {
+        "from": "File-2",
+        "to": "View-5"
+      },
+      {
+        "from": "File-2",
+        "to": "Insert-1"
+      },
+      {
+        "from": "File-2",
+        "to": "Insert-2"
+      },
+      {
+        "from": "File-2",
+        "to": "Insert-3"
+      },
+      {
+        "from": "File-3",
+        "to": "File-12"
+      },
+      {
+        "from": "File-4",
+        "to": "File-12"
+      },
+      {
+        "from": "File-5",
+        "to": "File-12"
+      },
+      {
+        "from": "File-6",
+        "to": "File-12"
+      },
+      {
+        "from": "File-7",
+        "to": "File-12"
+      },
+      {
+        "from": "File-7",
+        "to": "File-10"
+      },
+      {
+        "from": "File-8",
+        "to": "File-12"
+      },
+      {
+        "from": "File-8",
+        "to": "File-9"
+      },
+      {
+        "from": "File-9",
+        "to": "File-12"
+      },
+      {
+        "from": "File-10",
+        "to": "File-12"
+      },
+      {
+        "from": "File-11",
+        "to": "File-12"
+      },
+      {
+        "from": "Edit-1",
+        "to": "Edit-2"
+      },
+      {
+        "from": "Edit-7",
+        "to": "Edit-5"
+      },
+      {
+        "from": "Edit-8",
+        "to": "Edit-9"
+      },
+      {
+        "from": "View-2",
+        "to": "File-9"
+      },
+      {
+        "from": "View-5",
+        "to": "View-2"
+      },
+      {
+        "from": "View-5",
+        "to": "View-3"
+      },
+      {
+        "from": "Insert-1",
+        "to": "Insert-4"
+      },
+      {
+        "from": "Insert-1",
+        "to": "Insert-5"
+      },
+      {
+        "from": "Insert-2",
+        "to": "Insert-4"
+      },
+      {
+        "from": "Insert-2",
+        "to": "Insert-5"
+      },
+      {
+        "from": "Format-1",
+        "to": "Format-2"
+      },
+      {
+        "from": "Format-1",
+        "to": "Format-3"
+      },
+      {
+        "from": "Format-1",
+        "to": "Format-4"
+      },
+      {
+        "from": "Format-1",
+        "to": "Format-5"
+      },
+      {
+        "from": "Format-2",
+        "to": "Format-5"
+      },
+      {
+        "from": "Format-3",
+        "to": "Format-5"
+      },
+      {
+        "from": "Format-4",
+        "to": "Format-5"
+      },
+      {
+        "from": "Tools-1",
+        "to": "Tools-2"
+      },
+      {
+        "from": "Tools-2",
+        "to": "Tools-3"
+      },
+      {
+        "from": "Tools-6",
+        "to": "Tools-1"
+      },
+      {
+        "from": "Tools-6",
+        "to": "Tools-5"
+      },
+      {
+        "from": "Tools-6",
+        "to": "Tools-4"
+      },
+      {
+        "from": "Tools-6",
+        "to": "Tools-3"
+      },
+      {
+        "from": "Tools-6",
+        "to": "Tools-2"
+      }
+    ],
+    "couplings": [
+      {
+        "req1": "File-2",
+        "req2": "File-4"
+      },
+      {
+        "req1": "File-4",
+        "req2": "File-5"
+      },
+      {
+        "req1": "Edit-3",
+        "req2": "Edit-4"
+      },
+      {
+        "req1": "Edit-3",
+        "req2": "Edit-5"
+      },
+      {
+        "req1": "View-5",
+        "req2": "Insert-1"
+      },
+      {
+        "req1": "Data-1",
+        "req2": "Data-2"
+      },
+      {
+        "req1": "Data-2",
+        "req2": "Data-3"
+      },
+      {
+        "req1": "Help-2",
+        "req2": "Help-1"
+      }
+    ],
+    "exclusions": []
+  },
+  "value_dependencies": [
+    {
+      "attribute": "value",
+      "reqs": [
+        "Edit-3",
+        "Edit-4",
+        "Edit-5",
+        "Edit-6",
+        "Edit-7",
+        "Edit-10"
+      ],
+      "effect": "multiplier",
+      "factor": 1.4,
+      "description": "The sum value of {Edit-3, Edit-4, Edit-5, Edit-6, Edit-7, Edit-10} is increased by 40% if these items are all offered in the same release"
+    },
+    {
+      "attribute": "value",
+      "reqs": [
+        "Edit-1",
+        "Edit-3",
+        "Edit-4",
+        "Edit-5",
+        "Edit-8",
+        "Edit-9"
+      ],
+      "effect": "multiplier",
+      "factor": 1.4,
+      "description": "The sum value of {Edit-1, Edit-3, Edit-4, Edit-5, Edit-8, Edit-9} is increased by 40% if these items are all offered in the same release"
+    },
+    {
+      "attribute": "value",
+      "reqs": [
+        "View-1",
+        "View-2",
+        "View-3"
+      ],
+      "effect": "multiplier",
+      "factor": 1.3,
+      "description": "The sum value of {View-1, View-2, View-3} is increased by 30% if these items are all offered in the same release"
+    },
+    {
+      "attribute": "value",
+      "reqs": [
+        "Insert-3",
+        "Insert-5"
+      ],
+      "effect": "multiplier",
+      "factor": 1.2,
+      "description": "The sum value of {Insert-3, Insert-5} is increased by 20% if these items are all offered in the same release"
+    },
+    {
+      "attribute": "value",
+      "reqs": [
+        "Tools-1",
+        "Tools-2",
+        "Tools-3"
+      ],
+      "effect": "multiplier",
+      "factor": 1.3,
+      "description": "The sum value of {Tools-1, Tools-2, Tools-3} is increased by 30% if these items are all offered in the same release"
+    },
+    {
+      "attribute": "value",
+      "reqs": [
+        "Tools-4",
+        "Tools-5"
+      ],
+      "effect": "multiplier",
+      "factor": 1.25,
+      "description": "The sum value of {Tools-4, Tools-5} is increased by 25% if these items are all offered in the same release"
+    },
+    {
+      "attribute": "value",
+      "reqs": [
+        "Data-1",
+        "Data-4",
+        "Data-5"
+      ],
+      "effect": "multiplier",
+      "factor": 1.3,
+      "description": "The sum value of {Data-1, Data-4, Data-5} is increased by 30% if these items are all offered in the same release"
+    }
+  ]
+}
