@@ -209,7 +209,7 @@ The current application layer exposes headless
 
 
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
