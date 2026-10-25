@@ -58,6 +58,22 @@ def render_solver_panel(
     )
 
     solver_cls = get_solver_class(selected_solver_name)
+
+    # Applicability warning for Brute Force
+    if (
+        selected_solver_name == "Exact Brute Force (Pruned)"
+        and selected_model is not None
+        and hasattr(selected_model, "items")
+        and len(selected_model.items) > 22
+    ):
+        st.warning(
+            "The Exact Brute Force solver supports at most 22 active decision "
+            "items. The current formulation contains "
+            f"{len(selected_model.items)} items and falls outside its "
+            "applicability scope."
+        )
+
+
     param_kwargs = {}
 
     if solver_cls and hasattr(solver_cls, "get_parameter_schema"):

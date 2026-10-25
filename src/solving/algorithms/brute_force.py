@@ -91,10 +91,11 @@ class BruteForceSolver(BaseSolver):
 
             selected_set = set(current_selected)
 
-            # Prune if any cumulative constraint limit is exceeded
-            for attr, max_val in upper_limits.items():
-                if evaluator.evaluate_attribute(selected_set, attr) > max_val:
-                    return
+                
+            # Branch-and-bound pruning based on constraint values has been
+            # disabled because dynamic value-based interactions may alter
+            # attribute values non-monotonically.
+
 
             # Leaf of the search tree
             if index == n:
