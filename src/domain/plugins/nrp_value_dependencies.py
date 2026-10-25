@@ -44,6 +44,7 @@ def run(model, **kwargs) -> List:
     new_items = copy.deepcopy(model.items)
     remaining_val_deps = []
 
+
     for dep in val_deps:
         if not isinstance(dep, dict):
             continue
@@ -106,6 +107,7 @@ def run(model, **kwargs) -> List:
     # Update relationships with the remaining dynamic dependencies
     new_relationships = copy.deepcopy(model.relationships)
     new_relationships["value_dependencies"] = remaining_val_deps
+
 
     # Build and return the new model
     return [
