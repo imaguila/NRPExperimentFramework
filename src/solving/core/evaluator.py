@@ -260,30 +260,6 @@ class SolutionEvaluator:
 
             rule_attr, reqs, effect, val = self._parse_dependency_rule(dep)
 
-            try:
-                with open(
-                    "debug_vbi.txt",
-                    "a",
-                    encoding="utf-8"
-                ) as f:
-                    f.write("\n============================\n")
-                    f.write(f"ATTR={target_attr}\n")
-                    f.write(f"RULE_ATTR={rule_attr}\n")
-                    f.write(f"REQS={reqs}\n")
-                    f.write(f"SELECTED={selected_set}\n")
-                    f.write(f"EFFECT={effect}\n")
-                    f.write(f"VALUE={val}\n")
-                    f.write(
-                        f"ACTIVE={reqs.issubset(selected_set) if reqs else False}\n"
-                    )
-                    f.write("============================\n")
-            except Exception as ex:
-                print("DEBUG ERROR:", ex)
-                
-
-
-
-
             if rule_attr != target_attr:
                 continue
 
