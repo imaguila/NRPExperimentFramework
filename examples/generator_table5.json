@@ -1,0 +1,25 @@
+{
+    "software_version": "v2.0.0",
+    "instance": "examples/instances/Concise_Case_11.json",
+    "selected_variant_name": "Excl(r7)",
+    "objectives": {
+        "satisfaction": "max",
+        "effort": "min"
+    },
+    "constraints": {
+        "effort": {
+            "operator": "less_equal",
+            "value": 28.0
+        }
+    },
+    "solver": "BruteForceSolver",
+    "solver_parameters": {
+        "max_evaluations": 30000
+    },
+    "analysis": {
+        "lens": "Diversity",
+        "method": "K-Medoids",
+        "k": 4
+    },
+    "paper_reference": "Table 5"
+}

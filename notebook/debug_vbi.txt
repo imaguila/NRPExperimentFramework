@@ -1,0 +1,8820 @@
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r8', 'r11', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r8', 'r11', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r8', 'r11', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r8', 'r11', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r8', 'r11', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r8', 'r11', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r8', 'r11', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r8', 'r11', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r8', 'r11', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r8', 'r11', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r8', 'r11', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r8', 'r11', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r8', 'r11', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r8', 'r11', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r6', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r6', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r6'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r6'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=True
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r8'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r8'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r8'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r8'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r9'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r9'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r10'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r10'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12', 'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12', 'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r11'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r11'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=satisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=dissatisfaction
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=risk
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=effort
+REQS={'r6', 'r11'}
+SELECTED={'r12'}
+EFFECT=multiplier
+VALUE=0.9
+ACTIVE=False
+============================
+
+============================
+ATTR=effort
+RULE_ATTR=satisfaction
+REQS={'r6'}
+SELECTED={'r12'}
+EFFECT=delta
+VALUE=15.0
+ACTIVE=False
+============================
