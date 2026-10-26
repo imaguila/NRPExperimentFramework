@@ -1,6 +1,6 @@
 # Location: src/solving/algorithms/brute_force.py
 """
-Exact Brute Force Solver with branch‑and‑bound pruning, exploration limits,
+Exact Brute Force Solver with  exploration limits,
 and dynamic multi‑objective Pareto filtering.
 """
 
@@ -16,11 +16,11 @@ from src.solving.core.registry import register_solver
 from src.solving.utils.graph import GraphUtils
 
 
-@register_solver("Exact Brute Force (Pruned)")
+@register_solver("Exact Brute Force")
 class BruteForceSolver(BaseSolver):
     """
-    Exact Brute Force Solver with branch‑and‑bound pruning,
-    exploration limits, and dynamic multi‑objective Pareto filtering.
+    Exact Brute Force Solver with exploration limits, 
+    and dynamic multi‑objective Pareto filtering.
     """
 
     def __init__(self, max_evaluations: int = 30000):

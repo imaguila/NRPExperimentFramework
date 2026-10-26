@@ -61,7 +61,7 @@ def render_solver_panel(
 
     # Applicability warning for Brute Force
     if (
-        selected_solver_name == "Exact Brute Force (Pruned)"
+        selected_solver_name == "Exact Brute Force"
         and selected_model is not None
         and hasattr(selected_model, "items")
         and len(selected_model.items) > 22

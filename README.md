@@ -72,7 +72,7 @@ endpoint through precedence relationships.
 
 NRP-Exp currently provides six solvers through a common `BaseSolver` contract:
 
-- Brute Force with feasibility pruning and an evaluation limit.
+- Brute Force with  an evaluation limit.
 - Greedy Multi-Weight Sweep.
 - NSGA-II.
 - MILP Multi-Weight Sweep using `scipy.optimize.milp`.
