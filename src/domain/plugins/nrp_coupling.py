@@ -480,6 +480,8 @@ def run(
         )
     )
 
+
+
     new_value_dependencies: List[Any] = []
 
     for dependency in raw_value_dependencies:
@@ -508,6 +510,37 @@ def run(
             for requirement_id
             in raw_requirement_ids
         ]
+
+        attribute_name = dependency_copy.get(
+            "attribute",
+            ""
+        )
+
+        original_values = [
+            model.items[r].attributes.get(
+                attribute_name,
+                0.0
+            )
+            for r in raw_requirement_ids
+            if r in model.items
+        ]
+
+        dependency_copy["original_reqs"] = list(
+            raw_requirement_ids
+        )
+
+        dependency_copy["activating_base_value"] = (
+            _aggregate_values(
+                original_values,
+                operation=coupling_rules.get(
+                    attribute_name,
+                    "sum"
+                )
+            )
+        )
+
+
+
 
         # Remove duplicate identifiers while preserving order.
         dependency_copy["reqs"] = list(

@@ -76,19 +76,45 @@ def run(model, **kwargs) -> List:
             if target_id in new_items:
                 target_item = new_items[target_id]
                 item_attrs = getattr(target_item, "attributes", {})
+
+
                 if attr in item_attrs:
-                    curr_val = item_attrs[attr]
+                    curr_val = float(item_attrs[attr])
+
                     if effect in ("multiplier", "multiply", "scale"):
-                        new_val = float(curr_val * factor)
+
+                        activating_base = float(
+                            dep.get(
+                                "activating_base_value",
+                                curr_val
+                            )
+                        )
+
+                        # Preserve the contribution of the original activating subset
+                        # after coupling.
+                        new_val = float(
+                            curr_val
+                            + activating_base * (factor - 1.0)
+                        )
+
                     else:  # delta
                         new_val = float(curr_val + factor)
+
                     updated_attrs = dict(item_attrs)
                     updated_attrs[attr] = new_val
+
                     new_items[target_id] = DecisionItem(
                         id=target_item.id,
-                        description=getattr(target_item, "description", target_id),
+                        description=getattr(
+                            target_item,
+                            "description",
+                            target_id
+                        ),
                         attributes=updated_attrs
                     )
+
+
+
                 else:
                     # Attribute not present → create it with the factor value
                     updated_attrs = dict(item_attrs)

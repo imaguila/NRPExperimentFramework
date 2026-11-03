@@ -1,0 +1,45 @@
+{
+    "name": "Controlled_Coupling_Delta",
+    "attribute_definitions": {
+        "value": {
+            "type": "scalar",
+            "coupling_rule": "sum",
+            "evaluation_rule": "sum"
+        }
+    },
+    "requirements": [
+        {
+            "id": "r1",
+            "attributes": {
+                "value": 10
+            }
+        },
+        {
+            "id": "r2",
+            "attributes": {
+                "value": 20
+            }
+        }
+    ],
+    "relationships": {
+        "precedences": [],
+        "couplings": [
+            {
+                "req1": "r1",
+                "req2": "r2"
+            }
+        ],
+        "exclusions": [],
+        "value_dependencies": [
+            {
+                "attribute": "value",
+                "reqs": [
+                    "r1",
+                    "r2"
+                ],
+                "effect": "delta",
+                "factor": 5
+            }
+        ]
+    }
+}

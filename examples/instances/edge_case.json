@@ -1,0 +1,55 @@
+{
+    "name": "Reviewer_Edge_Case",
+    "attribute_definitions": {
+        "value": {
+            "type": "scalar",
+            "coupling_rule": "sum",
+            "evaluation_rule": "sum"
+        }
+    },
+    "requirements": [
+        {
+            "id": "r1",
+            "attributes": {
+                "value": 10
+            }
+        },
+        {
+            "id": "r2",
+            "attributes": {
+                "value": 20
+            }
+        },
+        {
+            "id": "r3",
+            "attributes": {
+                "value": 100
+            }
+        }
+    ],
+    "relationships": {
+        "precedences": [],
+        "couplings": [
+            {
+                "req1": "r1",
+                "req2": "r2"
+            },
+            {
+                "req1": "r2",
+                "req2": "r3"
+            }
+        ],
+        "exclusions": [],
+        "value_dependencies": [
+            {
+                "attribute": "value",
+                "reqs": [
+                    "r1",
+                    "r2"
+                ],
+                "effect": "multiplier",
+                "factor": 2.0
+            }
+        ]
+    }
+}
