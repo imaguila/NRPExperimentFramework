@@ -1,0 +1,58 @@
+{
+  "name": "Exclusion_Global_Front",
+  "attribute_definitions": {
+    "value": {
+      "type": "scalar",
+      "evaluation_rule": "sum"
+    },
+    "cost": {
+      "type": "scalar",
+      "evaluation_rule": "sum"
+    }
+  },
+  "requirements": [
+    {
+      "id": "r1",
+      "attributes": {
+        "value": 10,
+        "cost": 5
+      }
+    },
+    {
+      "id": "r2",
+      "attributes": {
+        "value": 15,
+        "cost": 8
+      }
+    },
+    {
+      "id": "r3",
+      "attributes": {
+        "value": 12,
+        "cost": 4
+      }
+    },
+    {
+      "id": "r4",
+      "attributes": {
+        "value": 20,
+        "cost": 15
+      }
+    }
+  ],
+  "relationships": {
+    "precedences": [],
+    "couplings": [],
+    "exclusions": [
+      {
+        "req1": "r1",
+        "req2": "r2"
+      },
+      {
+        "req1": "r3",
+        "req2": "r4"
+      }
+    ],
+    "value_dependencies": []
+  }
+}

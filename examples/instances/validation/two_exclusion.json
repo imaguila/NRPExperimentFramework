@@ -1,0 +1,152 @@
+{
+  "name": "Exclusion_Case",
+  "num_requirements": 11,
+  "attribute_definitions": {
+    "effort": {
+      "type": "scalar",
+      "description": "Total developer effort required",
+      "coupling_rule": "sum",
+      "evaluation_rule": "sum"
+    },
+    "satisfaction": {
+      "type": "scalar",
+      "description": "Weighted satisfaction score",
+      "coupling_rule": "sum",
+      "evaluation_rule": "sum"
+    }
+  },
+  "requirements": [
+    {
+      "id": "r1",
+      "description": "Centralized user authentication and identity management module.",
+      "attributes": {
+        "effort": 3,
+        "satisfaction": 3.857143
+      }
+    },
+    {
+      "id": "r2",
+      "description": "Data and inventory management module.",
+      "attributes": {
+        "effort": 4,
+        "satisfaction": 1.000000
+      }
+    },
+    {
+      "id": "r3",
+      "description": "Core server infrastructure and system environment configuration.",
+      "attributes": {
+        "effort": 2,
+        "satisfaction": 1.285714
+      }
+    },
+    {
+      "id": "r4",
+      "description": "User interface for profile customization and user preferences.",
+      "attributes": {
+        "effort": 1,
+        "satisfaction": 1.714286
+      }
+    },
+    {
+      "id": "r5",
+      "description": "Interactive dashboard featuring key performance metrics and analytical reports.",
+      "attributes": {
+        "effort": 4,
+        "satisfaction": 2.857143
+      }
+    },
+    {
+      "id": "r6",
+      "description": "Real-time notification and system alerting module.",
+      "attributes": {
+        "effort": 3,
+        "satisfaction": 1.000000
+      }
+    },
+    {
+      "id": "r7",
+      "description": "Report export functionality supporting PDF and Excel formats.",
+      "attributes": {
+        "effort": 2,
+        "satisfaction": 1.285714
+      }
+    },
+    {
+      "id": "r8",
+      "description": "Third-party payment gateway integration and financial transaction processing.",
+      "attributes": {
+        "effort": 5,
+        "satisfaction": 4.000000
+      }
+    },
+    {
+      "id": "r9",
+      "description": "Security audit logging and system activity tracking module.",
+      "attributes": {
+        "effort": 3,
+        "satisfaction": 2.000000
+      }
+    },
+    {
+      "id": "r10",
+      "description": "Regulatory compliance and advanced privacy policy framework.",
+      "attributes": {
+        "effort": 2,
+        "satisfaction": 1.714286
+      }
+    },
+    {
+      "id": "r11",
+      "description": "Public REST API for third-party application integrations.",
+      "attributes": {
+        "effort": 5,
+        "satisfaction": 2.428571
+      }
+    }
+  ],
+  "relationships": {
+  "precedences": [
+    {
+      "from": "r3",
+      "to": "r1"
+    },
+    {
+      "from": "r5",
+      "to": "r3"
+    },
+    {
+      "from": "r7",
+      "to": "r3"
+    },
+    {
+      "from": "r4",
+      "to": "r2"
+    },
+    {
+      "from": "r8",
+      "to": "r4"
+    },
+    {
+      "from": "r11",
+      "to": "r8"
+    },
+    {
+      "from": "r10",
+      "to": "r6"
+    }
+  ],
+    "couplings": [],
+    "exclusions": [
+      {
+        "req1": "r3",
+        "req2": "r4"
+      },
+      {
+        "req1": "r6",
+        "req2": "r8"
+      }
+    ],
+    "value_dependencies": []
+  }
+}

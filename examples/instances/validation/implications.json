@@ -1,0 +1,40 @@
+{
+    "name": "Controlled_Implication",
+    "attribute_definitions": {
+        "value": {
+            "type": "scalar",
+            "evaluation_rule": "sum"
+        }
+    },
+    "requirements": [
+        {
+            "id": "r1",
+            "attributes": {
+                "value": 10
+            }
+        },
+        {
+            "id": "r2",
+            "attributes": {
+                "value": 20
+            }
+        },
+        {
+            "id": "r3",
+            "attributes": {
+                "value": 30
+            }
+        }
+    ],
+    "relationships": {
+        "precedences": [
+            {
+                "req1": "r2",
+                "req2": "r1"
+            }
+        ],
+        "couplings": [],
+        "exclusions": [],
+        "value_dependencies": []
+    }
+}

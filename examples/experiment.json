@@ -1,0 +1,29 @@
+{
+  "software_version": "v1.0.0",
+  "instance": "examples/instances/Concise_Case_11.json",
+  "selected_variant_index": 0,
+  "objectives": {
+    "satisfaction": "max",
+    "effort": "min"
+  },
+  "constraints": {
+    "effort": {
+      "operator": "less_equal",
+      "value": 35.0
+    }
+  },
+  "solver": "GreedySolver",
+  "solver_parameters": {
+    "weight_samples": 25
+  },
+  "diversity_lens": {
+    "method": "K-Means",
+    "k": 2
+  },
+  "preference_lens": {
+    "method": "TOPSIS",
+    "maximize": ["satisfaction"],
+    "minimize": ["effort"],
+    "top_n": 5
+  }
+}

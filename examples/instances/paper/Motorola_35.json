@@ -1,0 +1,519 @@
+{
+  "name": "Motorola_35",
+  "num_requirements": 35,
+  "metadata": {
+    "source_case": "Motorola release-planning dataset",
+    "adaptation_notes": [
+      "The source case contains 40 requirements, of which five are mandatory.",
+      "This JSON represents the resulting selection problem over the 35 non-mandatory candidate requirements.",
+      "The effort already assigned to mandatory requirements is not represented as decision variables.",
+      "The configured effort bound for the 35-candidate problem is 1415 effort units.",
+      "The supplied dataset does not provide differential evaluator weights; equal weights are therefore used for c1-c4."
+    ],
+    "paper_effort_bound": 1415,
+    "original_num_requirements": 40,
+    "mandatory_requirements_excluded": 5
+  },
+  "attribute_definitions": {
+    "effort": {
+      "type": "scalar",
+      "description": "Development effort for each non-mandatory candidate requirement",
+      "coupling_rule": "sum",
+      "evaluation_rule": "sum"
+    },
+    "satisfaction": {
+      "type": "multivalued",
+      "evaluator_group": "stakeholders",
+      "description": "Per-evaluator value assigned to each candidate requirement",
+      "coupling_rule": "sum",
+      "aggregation_rule": "weighted_mean",
+      "evaluation_rule": "sum"
+    }
+  },
+  "stakeholders": [
+    {
+      "id": "c1",
+      "weight": 1.0,
+      "description": "Evaluator c1 from the source dataset"
+    },
+    {
+      "id": "c2",
+      "weight": 1.0,
+      "description": "Evaluator c2 from the source dataset"
+    },
+    {
+      "id": "c3",
+      "weight": 1.0,
+      "description": "Evaluator c3 from the source dataset"
+    },
+    {
+      "id": "c4",
+      "weight": 1.0,
+      "description": "Evaluator c4 from the source dataset"
+    }
+  ],
+  "developers": [],
+  "requirements": [
+    {
+      "id": "r1",
+      "description": "Non-mandatory Motorola candidate requirement 1",
+      "attributes": {
+        "effort": 100,
+        "satisfaction": [
+          0,
+          0,
+          0,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r2",
+      "description": "Non-mandatory Motorola candidate requirement 2",
+      "attributes": {
+        "effort": 50,
+        "satisfaction": [
+          0,
+          3,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r3",
+      "description": "Non-mandatory Motorola candidate requirement 3",
+      "attributes": {
+        "effort": 300,
+        "satisfaction": [
+          0,
+          0,
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r4",
+      "description": "Non-mandatory Motorola candidate requirement 4",
+      "attributes": {
+        "effort": 80,
+        "satisfaction": [
+          3,
+          0,
+          0,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r5",
+      "description": "Non-mandatory Motorola candidate requirement 5",
+      "attributes": {
+        "effort": 70,
+        "satisfaction": [
+          0,
+          0,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r6",
+      "description": "Non-mandatory Motorola candidate requirement 6",
+      "attributes": {
+        "effort": 100,
+        "satisfaction": [
+          0,
+          0,
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r7",
+      "description": "Non-mandatory Motorola candidate requirement 7",
+      "attributes": {
+        "effort": 1000,
+        "satisfaction": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r8",
+      "description": "Non-mandatory Motorola candidate requirement 8",
+      "attributes": {
+        "effort": 40,
+        "satisfaction": [
+          3,
+          0,
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r9",
+      "description": "Non-mandatory Motorola candidate requirement 9",
+      "attributes": {
+        "effort": 200,
+        "satisfaction": [
+          0,
+          0,
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r10",
+      "description": "Non-mandatory Motorola candidate requirement 10",
+      "attributes": {
+        "effort": 20,
+        "satisfaction": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "r11",
+      "description": "Non-mandatory Motorola candidate requirement 11",
+      "attributes": {
+        "effort": 1100,
+        "satisfaction": [
+          0,
+          0,
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r12",
+      "description": "Non-mandatory Motorola candidate requirement 12",
+      "attributes": {
+        "effort": 10,
+        "satisfaction": [
+          3,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r13",
+      "description": "Non-mandatory Motorola candidate requirement 13",
+      "attributes": {
+        "effort": 500,
+        "satisfaction": [
+          0,
+          0,
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r14",
+      "description": "Non-mandatory Motorola candidate requirement 14",
+      "attributes": {
+        "effort": 10,
+        "satisfaction": [
+          0,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r15",
+      "description": "Non-mandatory Motorola candidate requirement 15",
+      "attributes": {
+        "effort": 10,
+        "satisfaction": [
+          0,
+          0,
+          0,
+          3
+        ]
+      }
+    },
+    {
+      "id": "r16",
+      "description": "Non-mandatory Motorola candidate requirement 16",
+      "attributes": {
+        "effort": 10,
+        "satisfaction": [
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r17",
+      "description": "Non-mandatory Motorola candidate requirement 17",
+      "attributes": {
+        "effort": 20,
+        "satisfaction": [
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r18",
+      "description": "Non-mandatory Motorola candidate requirement 18",
+      "attributes": {
+        "effort": 200,
+        "satisfaction": [
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r19",
+      "description": "Non-mandatory Motorola candidate requirement 19",
+      "attributes": {
+        "effort": 1000,
+        "satisfaction": [
+          3,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r20",
+      "description": "Non-mandatory Motorola candidate requirement 20",
+      "attributes": {
+        "effort": 120,
+        "satisfaction": [
+          0,
+          0,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r21",
+      "description": "Non-mandatory Motorola candidate requirement 21",
+      "attributes": {
+        "effort": 300,
+        "satisfaction": [
+          0,
+          2,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r22",
+      "description": "Non-mandatory Motorola candidate requirement 22",
+      "attributes": {
+        "effort": 50,
+        "satisfaction": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r23",
+      "description": "Non-mandatory Motorola candidate requirement 23",
+      "attributes": {
+        "effort": 10,
+        "satisfaction": [
+          0,
+          2,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r24",
+      "description": "Non-mandatory Motorola candidate requirement 24",
+      "attributes": {
+        "effort": 30,
+        "satisfaction": [
+          0,
+          3,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r25",
+      "description": "Non-mandatory Motorola candidate requirement 25",
+      "attributes": {
+        "effort": 110,
+        "satisfaction": [
+          0,
+          2,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r26",
+      "description": "Non-mandatory Motorola candidate requirement 26",
+      "attributes": {
+        "effort": 230,
+        "satisfaction": [
+          2,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r27",
+      "description": "Non-mandatory Motorola candidate requirement 27",
+      "attributes": {
+        "effort": 40,
+        "satisfaction": [
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r28",
+      "description": "Non-mandatory Motorola candidate requirement 28",
+      "attributes": {
+        "effort": 180,
+        "satisfaction": [
+          0,
+          1,
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r29",
+      "description": "Non-mandatory Motorola candidate requirement 29",
+      "attributes": {
+        "effort": 20,
+        "satisfaction": [
+          0,
+          0,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "id": "r30",
+      "description": "Non-mandatory Motorola candidate requirement 30",
+      "attributes": {
+        "effort": 150,
+        "satisfaction": [
+          3,
+          3,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r31",
+      "description": "Non-mandatory Motorola candidate requirement 31",
+      "attributes": {
+        "effort": 60,
+        "satisfaction": [
+          0,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r32",
+      "description": "Non-mandatory Motorola candidate requirement 32",
+      "attributes": {
+        "effort": 100,
+        "satisfaction": [
+          1,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r33",
+      "description": "Non-mandatory Motorola candidate requirement 33",
+      "attributes": {
+        "effort": 400,
+        "satisfaction": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r34",
+      "description": "Non-mandatory Motorola candidate requirement 34",
+      "attributes": {
+        "effort": 80,
+        "satisfaction": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "r35",
+      "description": "Non-mandatory Motorola candidate requirement 35",
+      "attributes": {
+        "effort": 40,
+        "satisfaction": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "relationships": {
+    "precedences": [],
+    "couplings": [],
+    "exclusions": []
+  },
+  "value_dependencies": []
+}

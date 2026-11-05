@@ -1,0 +1,66 @@
+{
+  "name": "Four_Independent_Exclusions",
+  "attribute_definitions": {
+    "value": {
+      "type": "scalar",
+      "evaluation_rule": "sum"
+    }
+  },
+  "requirements": [
+    {
+      "id": "r1",
+      "attributes": { "value": 1 }
+    },
+    {
+      "id": "r2",
+      "attributes": { "value": 2 }
+    },
+    {
+      "id": "r3",
+      "attributes": { "value": 3 }
+    },
+    {
+      "id": "r4",
+      "attributes": { "value": 4 }
+    },
+    {
+      "id": "r5",
+      "attributes": { "value": 5 }
+    },
+    {
+      "id": "r6",
+      "attributes": { "value": 6 }
+    },
+    {
+      "id": "r7",
+      "attributes": { "value": 7 }
+    },
+    {
+      "id": "r8",
+      "attributes": { "value": 8 }
+    }
+  ],
+  "relationships": {
+    "precedences": [],
+    "couplings": [],
+    "exclusions": [
+      {
+        "req1": "r1",
+        "req2": "r2"
+      },
+      {
+        "req1": "r3",
+        "req2": "r4"
+      },
+      {
+        "req1": "r5",
+        "req2": "r6"
+      },
+      {
+        "req1": "r7",
+        "req2": "r8"
+      }
+    ],
+    "value_dependencies": []
+  }
+}

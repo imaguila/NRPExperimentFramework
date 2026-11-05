@@ -1,0 +1,92 @@
+{
+  "name": "Controlled_Linear_6",
+  "description": "Controlled six-requirement linear NRP case for validating solver portability through common problem and result contracts.",
+  "metadata": {
+    "case_family": "Controlled solver portability",
+    "purpose": "Functional validation across all six integrated solvers",
+    "linear": true,
+    "exact_binary_space": 64
+  },
+  "attribute_definitions": {
+    "value": {
+      "type": "scalar",
+      "coupling_rule": "sum",
+      "evaluation_rule": "sum"
+    },
+    "cost": {
+      "type": "scalar",
+      "coupling_rule": "sum",
+      "evaluation_rule": "sum"
+    }
+  },
+  "requirements": [
+    {
+      "id": "R1",
+      "description": "Controlled requirement 1",
+      "attributes": {
+        "value": 20.0,
+        "cost": 5.0
+      }
+    },
+    {
+      "id": "R2",
+      "description": "Controlled requirement 2",
+      "attributes": {
+        "value": 32.0,
+        "cost": 9.0
+      }
+    },
+    {
+      "id": "R3",
+      "description": "Controlled requirement 3",
+      "attributes": {
+        "value": 18.0,
+        "cost": 4.0
+      }
+    },
+    {
+      "id": "R4",
+      "description": "Controlled requirement 4",
+      "attributes": {
+        "value": 40.0,
+        "cost": 13.0
+      }
+    },
+    {
+      "id": "R5",
+      "description": "Controlled requirement 5",
+      "attributes": {
+        "value": 25.0,
+        "cost": 7.0
+      }
+    },
+    {
+      "id": "R6",
+      "description": "Controlled requirement 6",
+      "attributes": {
+        "value": 35.0,
+        "cost": 11.0
+      }
+    }
+  ],
+  "relationships": {
+    "precedences": [],
+    "couplings": [],
+    "exclusions": [],
+    "value_dependencies": []
+  },
+  "recommended_problem_configuration": {
+    "objectives": {
+      "value": "max",
+      "cost": "min"
+    },
+    "threshold_constraints": [
+      {
+        "attribute": "cost",
+        "operator": "<=",
+        "value": 24.0
+      }
+    ],
+    "seed_when_applicable": 11
+  }
+}
