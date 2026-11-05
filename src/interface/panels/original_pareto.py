@@ -291,7 +291,14 @@ def render_saved_pareto_fronts_view(problem: OptimizationProblem) -> None:
                     )
 
                     st.session_state["last_pareto_df"] = p["df"].copy()
+                    st.session_state["pareto_df"] = p["df"].copy()
+
                     st.session_state["last_pareto_front"] = loaded_front
+                    st.session_state["pareto_front"] = loaded_front
+
+                    st.session_state["analysis_df"] = p["df"].copy()
+                    st.session_state["analysis_df_after_lens"] = None
+
                     st.session_state["last_execution_time"] = p["execution_time"]
                     st.session_state["last_solver"] = None
                     st.rerun()

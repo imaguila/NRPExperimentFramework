@@ -48,8 +48,18 @@ def render_saved_sois_view() -> None:
             col_load, col_del = st.columns([0.6, 0.4])
             with col_load:
                 if st.button("⚡ Load as Active Sub-Dataset", key=f"btn_load_{soi.id}", use_container_width=True):
+                                        
                     st.session_state["active_soi_id"] = soi.id
+
+                    if hasattr(soi, "front"):
+                        active_df = soi.front.to_dataframe()
+
+                        st.session_state["analysis_df"] = active_df
+                        st.session_state["analysis_df_after_lens"] = active_df.copy()
+
                     st.rerun()
+
+
             with col_del:
                 if st.button("🗑️ Delete", key=f"btn_del_{soi.id}", use_container_width=True):
                     # Remove from the registry if available
