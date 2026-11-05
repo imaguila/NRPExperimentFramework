@@ -39,7 +39,9 @@ JSON instances can include:
 - Scalar and multivalued attributes.
 - Stakeholder and developer evaluator groups.
 - Evaluator weights.
-- Precedence relationships.
+- Precedence relationships. (meaning that selecting the source requirement requires the target requirement to be selected)
+
+        from -> to
 - Requirement couplings.
 - Mutual exclusions.
 - Additive and multiplicative value dependencies.
@@ -52,7 +54,7 @@ JSON models follow an explicit processing order:
 2. Resolution of multivalued attributes using evaluator weights and declared
    aggregation rules.
 3. Coupling resolution through Disjoint-Set Union.
-4. Value-dependency adjustment.
+4. Value-based interaction processing.
 5. Exclusion branching and precedence-aware removal.
 
 Coupled items are merged into unified decision items. Their scalar attributes
@@ -66,7 +68,11 @@ available for candidate-solution evaluation.
 
 Mutual exclusions generate alternative subproblem branches. Removing one
 endpoint of an exclusion also removes items that depend transitively on that
-endpoint through precedence relationships.
+endpoint through precedence relationships. 
+
+The framework also supports recovery of a global Pareto front by
+combining exclusion-generated subproblem fronts and applying
+dominance filtering.
 
 ### Multi-objective optimization
 
@@ -82,10 +88,7 @@ NRP-Exp currently provides six solvers through a common `BaseSolver` contract:
 Every solver receives an `OptimizationProblem` and returns a common
 `ParetoFront` representation.
 
-Brute-force enumeration is exact only when its evaluation limit permits the
-complete feasible search space to be explored. MILP obtains an exact solution
-for each weighted linear scalarization, but the weight sweep may omit
-non-supported Pareto-optimal solutions.
+Brute-force enumeration is exact only when its evaluation limit permits the complete feasible search space to be explored. MILP obtains an exact solution for each weighted linear scalarization, but the weight sweep may omit non-supported Pareto-optimal solutions. Automatic branch pruning is intentionally disabled because dynamic value-based interactions may affect objective values non-monotonically.
 
 ### Pareto-front management
 
