@@ -1,2 +1,2 @@
 Solver,Variant,Execution time (s),Weight samples,Solutions,Hypervolume,Spacing,Objective-space extent,Spread
-GreedySolver,Excl(r7),0.12873510003555566,25,1,1.0,0.0,0.0,0.0
+GreedySolver,Excl(r7),0.16185569996014237,25,1,1.0,0.0,0.0,0.0
