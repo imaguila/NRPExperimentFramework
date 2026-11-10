@@ -88,8 +88,7 @@ NRP-Exp currently provides six solvers through a common `BaseSolver` contract:
 Every solver receives an `OptimizationProblem` and returns a common
 `ParetoFront` representation.
 
-
-Brute-force enumeration is exact only when its evaluation limit permits the complete feasible search space to be explored. MILP obtains an exact solution for each weighted linear scalarization, but the weight sweep may omit non-supported Pareto-optimal solutions. Automatic branch pruning is strictly constrained to provably safe operations, ensuring dynamic value-based interactions do not alter objective values or exclude optimal solutions non-monotonically.
+Brute-force enumeration is exact only when its evaluation limit permits the complete feasible search space to be explored. MILP obtains an exact solution for each weighted linear scalarization, but the weight sweep may omit non-supported Pareto-optimal solutions. Automatic branch pruning is intentionally disabled because dynamic value-based interactions may affect objective values non-monotonically.
 
 ### Pareto-front management
 
@@ -211,32 +210,21 @@ Streamlit.
 
 The current application layer exposes headless 
 
-## Technical Correctness & Verification
 
-NRP-Exp enforces strict mathematical equivalence across model transformations and preprocessing stages:
 
-- **Objective-Preserving Preprocessing:** Coupling-multiplier transformations, multivalued attribute aggregations, and item merging maintain exact objective value parity before and after preprocessing ($f(x_{\text{orig}}) = f(x_{\text{prep}})$).
-- **Safe State Space Reduction:** Automatic branch pruning is restricted to provably optimal/feasible bounds to prevent omitting optimal candidate solutions under dynamic value-based interactions.
-- **Independent Ground-Truth Validation:** The repository includes a suite of independent, small-scale exhaustive verification tests (`tests/verification/`) that benchmark solver outputs against full brute-force state-space evaluations to guarantee correctness.
+##  Quick Start
 
-## Installation & Reproducibility
+### Installation
 
-To guarantee 100% deterministic reproducibility matching the published study results, dependencies are strictly pinned (`==`).
+Clone the repository and install the required dependencies:
 
-### 1. Environment Setup
 ```bash
-# Clone the repository
 git clone [https://github.com/YOUR-USERNAME/NRP-Exp.git](https://github.com/YOUR-USERNAME/NRP-Exp.git)
 cd NRP-Exp
-
-# Create and activate a clean virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install strictly pinned dependencies
 pip install -r requirements.txt
 ```
 
 ## Contributing
 
-Contributions are welcome! Feel free to open an issue or submit a pull request for new solvers, analytical lenses, or domain plugins.
+Contributions are welcome! Whether it is adding a new solver, creating a new analytical lens, or fixing a bug, please feel free to open an issue or submit a pull request.
+
